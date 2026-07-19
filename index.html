@@ -1274,6 +1274,9 @@ class Component extends DCLogic {
     requestAnimationFrame(revealInView);
     if (this._revealFailsafe) clearTimeout(this._revealFailsafe);
     this._revealFailsafe = setTimeout(revealInView, 900);
+    // hard failsafe: nothing may ever stay invisible, even if observer/scroll never fires
+    if (this._revealAll) clearTimeout(this._revealAll);
+    this._revealAll = setTimeout(() => els.forEach(showNow), 2600);
   }
   componentWillUnmount() {
     if (this._io) this._io.disconnect();
