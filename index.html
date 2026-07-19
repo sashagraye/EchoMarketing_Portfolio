@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/shape.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/motion.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/tokens/elevation.css">
+  <link rel="stylesheet" href="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/styles.css">
+  <script src="_ds/design-system-b5391fae-cb9d-424b-9280-122c8623cce8/_ds_bundle.js"></script>
+  <style>
+    html{scroll-behavior:smooth}
+    @keyframes mpBob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+    .mp-toggle:hover{border-color:#00A7B7!important;box-shadow:0 10px 24px -12px rgba(0,167,183,.35)!important;transform:translateY(-3px)}
+    .mp-toggle:active{transform:scale(.97)}
+    @media (prefers-reduced-motion:reduce){.mp-toggle-arrow{animation:none!important}}
+    body{margin:0;background:#FDFDFC;color:#25262E;font-family:'Pretendard',-apple-system,sans-serif;word-break:keep-all;overflow-wrap:break-word}
+    a{color:#3538CD;text-decoration:none}a:hover{color:#2A2CA8}
+    .insta-fig:hover .insta-cap{transform:translateY(0)!important;opacity:1!important}
+    @media (hover:none){.insta-fig .insta-cap{transform:translateY(0)!important;opacity:1!important}}
+    ::selection{background:#3538CD;color:#F3F3F6}
+  </style>
+</helmet>
+
+<!-- ═══════ 스티키 내비 ═══════ -->
+<nav style="position:sticky;top:0;z-index:50;background:rgba(253,253,252,.85);backdrop-filter:blur(12px);border-bottom:1px solid #DAD9D3">
+  <div style="max-width:1160px;margin:0 auto;padding:14px clamp(20px,4vw,40px);display:flex;align-items:center;justify-content:space-between;gap:24px">
+    <a href="#hero" style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.02em;color:#25262E">이태현</a>
+    <div style="display:flex;gap:22px;flex-wrap:wrap;font-size:13px;font-weight:500">
+      <a href="#strengths" style="color:#55565C">역량</a>
+      <a href="#case2" style="color:#55565C">AI 파이프라인</a>
+      <a href="#case1" style="color:#55565C">미리캔버스</a>
+      <a href="#experience" style="color:#55565C">동아리</a>
+      <a href="#signature" style="color:#55565C">봉을 아십니까</a>
+      <a href="#strategy" style="color:#55565C">전략</a>
+      <a href="#tools" style="color:#55565C">툴 · 언어</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════ 1 · 히어로 ═══════ -->
+<header id="hero" data-screen-label="01 히어로" style="scroll-margin-top:72px">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(64px,10vh,110px) clamp(20px,4vw,40px) clamp(56px,8vh,88px);display:flex;flex-wrap:wrap;gap:clamp(40px,5vw,64px);align-items:center">
+    <div style="flex:1.4 1 420px;min-width:0" data-reveal="">
+      <div style="display:flex;align-items:center;gap:10px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD">
+        <span style="display:inline-block;width:20px;height:2px;background:#3538CD"></span>
+        <span>Performance Marketer · Echo Marketing Intern</span>
+      </div>
+      <div style="margin-top:32px;display:flex;align-items:center;gap:clamp(20px,2.6vw,30px);flex-wrap:wrap">
+        <img src="uploads/profile-photo.png" alt="이태현 증명사진" style="flex:none;width:clamp(96px,11vw,128px);height:clamp(120px,13.8vw,160px);object-fit:cover;object-position:center top;border-radius:22px 3px 22px 3px;border:1px solid #DAD9D3;box-shadow:0 16px 32px -18px rgba(22,23,27,.35);display:block">
+        <div style="min-width:0">
+          <h1 style="margin:0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:62px;line-height:1.0;letter-spacing:-0.03em;color:#25262E">이태현</h1>
+          <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;font-variant-numeric:tabular-nums">
+            <span style="padding:6px 12px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">분석적인</span>
+            <span style="padding:6px 12px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">꼼꼼함</span>
+            <span style="padding:6px 12px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">다양한 툴</span>
+          </div>
+        </div>
+      </div>
+      <p style="margin:32px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:clamp(20px,2.6vw,28px);line-height:1.35;letter-spacing:-0.02em;color:#25262E">타깃을 읽고,<br>관습을 벗어난 크리에이티브로,<br><span style="color:#3538CD">결과로 증명합니다.</span></p><p style="margin:24px 0 0;font-size:16px;line-height:1.7;color:#55565C;max-width:440px">관찰과 분석을 토대로, 허용된 범위 내에서 적절한 크리에이티브를 펼칩니다</p>
+      
+    </div>
+    <div style="flex:1 1 340px;min-width:0;background:#2A2E3A;border-radius:22px 3px 22px 3px;padding:40px 36px;display:flex;flex-direction:column" data-reveal="" data-reveal-delay="120">
+      <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">Proven Results</div>
+      <div style="margin-top:28px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.12)">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:30px;letter-spacing:-0.02em;color:#F3F3F6">최우수상</div>
+        <div style="margin-top:6px;font-size:13px;color:rgba(255,255,255,.6);font-variant-numeric:tabular-nums">미리캔버스 광고 대전 · <span style="color:#12B76A;font-weight:600" data-countup="">1,500만원</span> 규모</div>
+      </div>
+      <div style="margin-top:24px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.12)">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:30px;letter-spacing:-0.02em;color:#F3F3F6">대상</div>
+        <div style="margin-top:6px;font-size:13px;color:rgba(255,255,255,.6)">서울경제 쇼츠 챌린지 · 성과형 숏폼</div>
+      </div>
+      <div style="margin-top:24px">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:30px;letter-spacing:-0.02em;color:#F3F3F6">최우등 학생 <span style="font-size:18px;color:#6C6EF5">연세대학교 문화미디어</span></div>
+        <div style="margin-top:6px;font-size:13px;color:rgba(255,255,255,.6)">외 전공학업우수상, Distinction Award등 수상</div>
+      </div>
+    </div>
+  </div>
+  <sc-if value="{{ showProjects }}" hint-placeholder-val="{{ true }}">
+    
+  </sc-if>
+</header>
+
+<!-- 플로팅 리퀴드 글라스 툴 독 (케이스별, 스크롤 고정) -->
+<div class="tool-dock" aria-hidden="true" style="position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(26px);opacity:0;pointer-events:none;transition:opacity .55s cubic-bezier(.34,1.35,.5,1),transform .55s cubic-bezier(.34,1.35,.5,1);z-index:55;width:max-content;max-width:min(94vw,1140px)">
+  <div style="display:flex;align-items:center;padding:11px 18px;background:rgba(253,253,252,.58);backdrop-filter:blur(22px) saturate(185%);-webkit-backdrop-filter:blur(22px) saturate(185%);border:1px solid rgba(255,255,255,.6);box-shadow:0 12px 36px rgba(22,23,27,.22),inset 0 1px 0 rgba(255,255,255,.8),inset 0 -1px 3px rgba(255,255,255,.35);border-radius:22px 3px 22px 3px;overflow-x:auto">
+      <div class="tool-dock-panel" data-dock="case1" style="display:none;align-items:center;gap:16px;white-space:nowrap;font-variant-numeric:tabular-nums"><div style="display:flex;align-items:center;gap:8px;padding-right:14px;border-right:1px solid rgba(22,23,27,.14);flex:none"><span style="width:14px;height:2px;background:#00889A"></span><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10.5px;letter-spacing:.06em;color:#00889A">사용해본 디자인 툴</span></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/photoshop.png" alt="Photoshop" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">Photoshop</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">5/5</span></div></div></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/figma.png" alt="Figma" style="flex: none; width: 34px; height: 32px; border-radius: 8px 2px 8px 2px; object-fit: cover; display: block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">Figma</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#B9B8B1"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">4/5</span></div></div></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/illustrator.png" alt="Illustrator" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">Illustrator</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#00AABE"></span><span style="width:13px;height:4px;border-radius:2px;background:#B9B8B1"></span><span style="width:13px;height:4px;border-radius:2px;background:#B9B8B1"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">3/5</span></div></div></div></div>
+      <div class="tool-dock-panel" data-dock="case2" style="display:none;align-items:center;gap:16px;white-space:nowrap;font-variant-numeric:tabular-nums"><div style="display:flex;align-items:center;gap:8px;padding-right:14px;border-right:1px solid rgba(22,23,27,.14);flex:none"><span style="width: 14px; height: 2px; background-color: #FFC401"></span><span style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 10.5px; letter-spacing: .06em; color: #FFC401">사용해본 생성형 AI</span></div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/midjourney.webp" alt="Midjourney" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">Midjourney</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/seedance.png" alt="SeeDance" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">SeeDance</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/runway.png" alt="Runway" style="flex: none; width: 30px; height: 30px; border-radius: 8px 2px 8px 2px; object-fit: contain; display: block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">Runway</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/hailuo.png" alt="Hailuo" style="flex: none; width: 30px; height: 30px; border-radius: 8px 2px 8px 2px; object-fit: fill; display: block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">Hailuo</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/nanobanana.png" alt="Nano Banana" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">Nano Banana</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/gpt.png" alt="GPT" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">GPT</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/claude.png" alt="Claude" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">Claude</span></div><div style="display:flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border:1px solid rgba(22,23,27,.14);border-radius:10px 2px 10px 2px;background:rgba(255,255,255,.5)"><img src="icons/suno.png" alt="Suno" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#25262E">Suno</span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#8A8B90;padding-left:2px">등</span></div></div>
+      <div class="tool-dock-panel" data-dock="experience" style="display:none;align-items:center;gap:16px;white-space:nowrap;font-variant-numeric:tabular-nums"><div style="display:flex;align-items:center;gap:8px;padding-right:14px;border-right:1px solid rgba(22,23,27,.14);flex:none"><span style="width:14px;height:2px;background:#E8590C"></span><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10.5px;letter-spacing:.06em;color:#E8590C">사용해본 영상 툴</span></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/premiere.png" alt="Premiere Pro" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">Premiere Pro</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">5/5</span></div></div></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/aftereffects.png" alt="After Effects" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">After Effects</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">5/5</span></div></div></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/audition.png" alt="Audition" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">Audition</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#B9B8B1"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">4/5</span></div></div></div><div style="display:flex;align-items:center;gap:9px"><img src="icons/davinci.png" alt="DaVinci Resolve" style="flex:none;width:30px;height:30px;border-radius:8px 2px 8px 2px;object-fit:cover;display:block"><div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:-0.02em;color:#25262E;line-height:1.1">DaVinci Resolve</div><div style="display:flex;align-items:center;gap:8px"><div style="display:flex;gap:3px"><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#E8590C"></span><span style="width:13px;height:4px;border-radius:2px;background:#B9B8B1"></span><span style="width:13px;height:4px;border-radius:2px;background:#B9B8B1"></span></div><span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;color:#6b6c72">3/5</span></div></div></div></div>
+  </div>
+</div>
+
+
+<!-- ═══════ 1b · 프로필 (연락처·학력·수상) ═══════ -->
+<section id="profile" data-screen-label="01b 프로필" style="scroll-margin-top:72px">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(56px,8vh,88px) clamp(20px,4vw,40px)">
+    <div data-reveal="">
+      <div style="display:flex;align-items:center;gap:10px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD">
+        <span style="display:inline-block;width:20px;height:2px;background:#3538CD"></span>
+        <span>Profile · 프로필</span>
+      </div>
+      <div style="margin-top:22px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 22px;font-size:clamp(15px,1.9vw,18px);color:#25262E;font-variant-numeric:tabular-nums">
+        <span style="font-weight:600">+82) 010-2339-9497</span>
+        <span style="color:#DAD9D3">|</span>
+        <a href="mailto:korea123456757@gmail.com" style="color:#55565C;text-decoration:none">korea123456757@gmail.com</a>
+        
+        
+      </div>
+    </div>
+
+    <!-- 학력 및 언어 -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(24px,4vw,64px);margin-top:clamp(40px,5vw,60px);max-width:840px" data-reveal="">
+      <div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90;padding-bottom:14px;border-bottom:1px solid #DAD9D3">학력</div>
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.01em;color:#25262E">연세대학교</div>
+          <div style="margin-top:6px;font-size:13.5px;color:#8A8B90;font-variant-numeric:tabular-nums">문화미디어 전공 · GPA 4.02 · 2026.2</div>
+        </div>
+        <div style="padding:18px 0">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.01em;color:#25262E">대련 풍엽 국제 고등학교</div>
+          <div style="margin-top:6px;font-size:13.5px;color:#8A8B90;font-variant-numeric:tabular-nums">졸업 · 2019.2</div>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90;padding-bottom:14px;border-bottom:1px solid #DAD9D3">언어</div>
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="display:flex;align-items:baseline;gap:12px;font-variant-numeric:tabular-nums">
+            <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.01em;color:#25262E">HSKK&nbsp;</span>
+            <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;color:#3538CD">고급</span>
+          </div>
+          <div style="margin-top:6px;font-size:13.5px;color:#8A8B90;font-variant-numeric:tabular-nums">2026.4</div>
+        </div>
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="display:flex;align-items:baseline;gap:12px;font-variant-numeric:tabular-nums">
+            <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.01em;color:#25262E">TOEIC</span>
+            <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;color:#3538CD">950점</span>
+          </div>
+          <div style="margin-top:6px;font-size:13.5px;color:#8A8B90;font-variant-numeric:tabular-nums">2024.8</div>
+        </div>
+        <div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:8px">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;padding:6px 13px;border-radius:12px 2px 12px 2px;background:#E7E7FB;color:#3538CD">영어 고급</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;padding:6px 13px;border-radius:12px 2px 12px 2px;background:#E7E7FB;color:#3538CD">중국어 고급</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;padding:6px 13px;border-radius:12px 2px 12px 2px;background:#E7E7FB;color:#3538CD">중국 문화 경험</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 활동 및 수상내역 -->
+    <div style="margin-top:clamp(40px,5vw,60px);max-width:840px" data-reveal="">
+      <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90;padding-bottom:14px;border-bottom:1px solid #DAD9D3">활동 및 수상내역</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:0 clamp(24px,4vw,64px)">
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:16.5px;letter-spacing:-0.01em;color:#25262E">미리캔버스 광고 대전</div>
+          <div style="margin-top:6px;font-size:13.5px"><span style="font-family:'Pretendard',sans-serif;font-weight:600;color:#3538CD">최우수상</span><span style="color:#C6C5BD;margin:0 8px">·</span><span style="color:#8A8B90">디자인</span></div>
+        </div>
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:16.5px;letter-spacing:-0.01em;color:#25262E">서울경제 직장인·대학생 쇼츠 영상 공모전</div>
+          <div style="margin-top:6px;font-size:13.5px"><span style="font-family:'Pretendard',sans-serif;font-weight:600;color:#3538CD">대상</span><span style="color:#C6C5BD;margin:0 8px">·</span><span style="color:#8A8B90">쇼츠/영상</span></div>
+        </div>
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:16.5px;letter-spacing:-0.01em;color:#25262E">응용정보공학 개발 공모전</div>
+          <div style="margin-top:6px;font-size:13.5px"><span style="font-family:'Pretendard',sans-serif;font-weight:600;color:#3538CD">최우수상</span><span style="color:#C6C5BD;margin:0 8px">·</span><span style="color:#8A8B90">디자인</span></div>
+        </div>
+        <div style="padding:18px 0;border-bottom:1px solid #DAD9D3">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:16.5px;letter-spacing:-0.01em;color:#25262E">장교숙소 5단지 1분 숏폼 공모전</div>
+          <div style="margin-top:6px;font-size:13.5px"><span style="font-family:'Pretendard',sans-serif;font-weight:600;color:#3538CD">입선</span><span style="color:#C6C5BD;margin:0 8px">·</span><span style="color:#8A8B90">쇼츠/영상</span></div>
+        </div>
+      </div>
+      <div style="margin-top:14px;font-size:13px;color:#8A8B90;font-variant-numeric:tabular-nums">외 2개 활동·수상</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 2 · 핵심 역량 3축 ═══════ -->
+<section id="strengths" data-screen-label="02 핵심 역량" style="scroll-margin-top:72px;border-top:1px solid #DAD9D3">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(64px,9vh,96px) clamp(20px,4vw,40px)">
+    <div data-reveal="">
+      <div style="display:flex;align-items:center;gap:10px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD;font-variant-numeric:tabular-nums">
+        <span style="display:inline-block;width:20px;height:2px;background:#3538CD"></span>
+        <span>Core Strengths</span>
+      </div>
+      <h2 style="margin:24px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(30px,4.2vw,48px);line-height:1.12;letter-spacing:-0.02em;color:#25262E">직접 만드는 마케터는<br>가설 검증이 빠릅니다.</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:48px">
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:32px 28px;transition:transform .5s cubic-bezier(.34,1.56,.5,1),box-shadow .5s cubic-bezier(.34,1.56,.5,1),border-color .35s;will-change:transform" style-hover="transform:translateY(-10px) scale(1.02);box-shadow:0 26px 50px -20px rgba(53,56,205,.36);border-color:#3538CD" data-reveal="">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD;font-variant-numeric:tabular-nums">01</div>
+        <h3 style="margin:18px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:22px;letter-spacing:-0.02em;color:#25262E">크리에이티브 기획·제작</h3>
+        <p style="margin:12px 0 0;font-size:15px;line-height:1.7;color:#55565C">소재·텍스트·이미지·영상을 직접 만듭니다. 기획과 제작 사이의 손실이 없습니다.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid #DAD9D3;font-size:13px;color:#8A8B90">근거 — 광고 대전 최우수상 · 쇼츠 챌린지 대상</div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:32px 28px;transition:transform .5s cubic-bezier(.34,1.56,.5,1),box-shadow .5s cubic-bezier(.34,1.56,.5,1),border-color .35s;will-change:transform" style-hover="transform:translateY(-10px) scale(1.02);box-shadow:0 26px 50px -20px rgba(53,56,205,.36);border-color:#3538CD" data-reveal="" data-reveal-delay="80">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD;font-variant-numeric:tabular-nums">02</div>
+        <h3 style="margin:18px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:22px;letter-spacing:-0.02em;color:#25262E">데이터·전략적 사고</h3>
+        <p style="margin:12px 0 0;font-size:15px;line-height:1.7;color:#55565C">타깃 분석에서 인사이트를 꺼내고, 인사이트를 전략으로 옮깁니다.</p>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid #DAD9D3;font-size:13px;color:#8A8B90">근거 — 시장 데이터 기반 포지셔닝 · 브랜드 캠페인 전략</div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:32px 28px;transition:transform .5s cubic-bezier(.34,1.56,.5,1),box-shadow .5s cubic-bezier(.34,1.56,.5,1),border-color .35s;will-change:transform" style-hover="transform:translateY(-10px) scale(1.02);box-shadow:0 26px 50px -20px rgba(53,56,205,.36);border-color:#3538CD" data-reveal="" data-reveal-delay="160">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD;font-variant-numeric:tabular-nums">03</div>
+        <h3 style="margin:18px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:22px;letter-spacing:-0.02em;color:#25262E">AI 활용 역량</h3>
+        
+        <p style="margin:12px 0 0;font-size:15px;line-height:1.7;color:#55565C">AI로 크리에이티브 생산 속도를 바꿉니다. <br>도전적인 성향으로 변화의 선두에 섭니다.</p><div style="margin-top:20px;padding-top:16px;border-top:1px solid #DAD9D3;font-size:13px;color:#8A8B90;font-variant-numeric:tabular-nums">근거 — AI영상 제작 파이프라인, AI 활용 문서 제작</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 3 · 시그니처 봉을 아십니까? ═══════ -->
+
+
+<!-- ═══════ 4 · 케이스 1 미리캔버스 ═══════ -->
+<section id="overview" data-screen-label="03 프로젝트 개요" style="scroll-margin-top:72px">
+  <div style="max-width:1160px;margin:0 auto;padding:44px clamp(20px,4vw,40px) clamp(56px,8vh,88px);display:grid;grid-template-columns:repeat(2,1fr);gap:16px" data-reveal="">
+      <div style="grid-column:1 / -1;display:flex;align-items:center;gap:10px;margin-top:-24px;margin-bottom:-8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD">
+        <span style="display:inline-block;width:20px;height:2px;background:#3538CD"></span>
+        <span>프로젝트 개요 · Overview</span>
+      </div>
+      
+      <div style="position: relative; overflow: visible; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 108px; padding: 22px 26px; border-radius: 22px 3px 22px 3px; transition: transform .35s cubic-bezier(.34,1.4,.5,1); background-color: #1A1A1B" style-hover="transform:translateY(-5px)"><a href="#case2" aria-label="AI 영상 제작 자세히 보기" style="position:absolute;inset:0;z-index:9;border-radius:22px 3px 22px 3px;cursor:pointer"></a>
+        <div style="min-width:130px;position:relative;z-index:2">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(20px,2.2vw,26px);letter-spacing:-0.02em;color:#F3F3F6">AI 영상 제작</div>
+          <div style="margin-top:8px;font-size:13.5px;color:rgba(255,255,255,.7)">AI 활용 <span style="opacity:.5;margin:0 6px">|</span> AI사용 경험, 워크플로우 구축</div>
+        </div>
+        <div style="position:absolute;right:clamp(14px,2.4vw,30px);bottom:0;top:-40px;width:clamp(170px,24vw,260px);z-index:1;pointer-events:none">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="proj-ai" fit="contain" shape="rect" src="assets/ai-factory-nukki.png" placeholder="3D 오브젝트 이미지" style="width: 203px; height: 168px; position: absolute; left: 57px; top: 24px" hint-size="100%,148px"></x-import>
+        </div>
+      </div><div style="position: relative; overflow: visible; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 108px; padding: 22px 26px; border-radius: 22px 3px 22px 3px; transition: transform .35s cubic-bezier(.34,1.4,.5,1); background-color: #00A9BD" style-hover="transform:translateY(-5px)"><a href="#case1" aria-label="미리캔버스 광고 자세히 보기" style="position:absolute;inset:0;z-index:9;border-radius:22px 3px 22px 3px;cursor:pointer"></a>
+        <div style="min-width:130px;position:relative;z-index:2">
+          <div style="font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: clamp(20px,2.2vw,26px); letter-spacing: -0.02em; color: #F3F3F6">미리캔버스 광고</div>
+          <div style="margin-top:8px;font-size:13.5px;color:rgba(255,255,255,.75)">디자인 <span style="opacity:.5;margin:0 6px">|</span> 디자인 감각, 속도</div>
+        </div>
+        <div style="position:absolute;right:clamp(-52px,-4vw,-28px);top:50%;transform:translateY(-50%);width:clamp(240px,32vw,380px);z-index:1;filter:drop-shadow(0 10px 22px rgba(0,0,0,.22));pointer-events:none">
+          
+        </div>
+      <img src="assets/gangnam-sign-nukki.png" alt="강남역 표지판 — 미리캔버스 수상작 오브젝트" style="width: 327px; height: 102px; display: block; position: absolute; left: 282px; top: 39px; filter: drop-shadow(0 14px 20px rgba(0,0,0,.32)) drop-shadow(0 3px 6px rgba(0,0,0,.18)); pointer-events: none"></div>
+      <div style="position: relative; overflow: visible; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 108px; padding: 22px 26px; border-radius: 22px 3px 22px 3px; transition: transform .35s cubic-bezier(.34,1.4,.5,1); background-color: var(--ink)" style-hover="transform:translateY(-5px)"><a href="#experience" aria-label="영상 동아리 자세히 보기" style="position:absolute;inset:0;z-index:9;border-radius:22px 3px 22px 3px;cursor:pointer"></a>
+        <div style="min-width:130px;position:relative;z-index:2">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(20px,2.2vw,26px);letter-spacing:-0.02em;color:#F3F3F6">영상 동아리</div><div style="margin-top:8px;font-size:13.5px;color:rgba(255,255,255,.78)">영상제작 경험<span style="opacity: 0.6; margin: 0px 6px;">|</span>&nbsp;팀워크, 커뮤니케이션</div>
+          
+        </div>
+        <div style="position:absolute;right:clamp(14px,2.4vw,30px);bottom:0;top:auto;height:clamp(118px,16vw,168px);width:clamp(150px,20vw,208px);overflow:hidden;z-index:1;filter:drop-shadow(0 10px 16px rgba(0,0,0,.28));pointer-events:none">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="proj-video" fit="cover" shape="rect" object-position="top center" src="assets/clapper-nukki.png" placeholder="3D 오브젝트 이미지" style="width: 152px; height: 111px; position: absolute; left: 27px; top: 57px" hint-size="100%,148px"></x-import>
+        </div>
+      </div>
+      <div style="position: relative; overflow: visible; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 108px; padding: 22px 26px; border-radius: 22px 3px 22px 3px; transition: transform .35s cubic-bezier(.34,1.4,.5,1); background-color: #4E342B" style-hover="transform:translateY(-5px)"><a href="#strategy" aria-label="The Scent of Page 자세히 보기" style="position:absolute;inset:0;z-index:9;border-radius:22px 3px 22px 3px;cursor:pointer"></a>
+        <div style="min-width:130px;position:relative;z-index:2">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(20px,2.2vw,26px);letter-spacing:-0.02em;color:#F3F3F6">The Scent of Page</div>
+          <div style="margin-top:8px;font-size:13.5px;color:rgba(255,255,255,.78)">브랜드 전략 <span style="opacity:.6;margin:0 6px">|</span> 리서치 기반 리브랜딩</div>
+        </div>
+        <div style="position:absolute;right:clamp(20px,3vw,40px);bottom:-8px;top:-44px;width:clamp(70px,9vw,96px);z-index:1;filter:drop-shadow(0 14px 20px rgba(0,0,0,.32));pointer-events:none">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="proj-scent" fit="contain" shape="rect" src="assets/scent-box-nukki.png" placeholder="3D 오브젝트 이미지" style="width: 79px; height: 180px; position: absolute; left: -11px; top: 22px" hint-size="100%,148px"></x-import>
+        </div>
+      </div>
+      
+    </div><div style="border-top:1px solid #DAD9D3"></div>
+</section>
+
+<!-- ═══════ 4 · 케이스 2 AI 파이프라인 ═══════ -->
+<section id="case2" data-screen-label="04 AI 파이프라인" style="scroll-margin-top:72px;border-top:1px solid #DAD9D3">
+  
+<div style="max-width:1160px;margin:0 auto;padding:clamp(72px,10vh,110px) clamp(20px,4vw,40px) clamp(120px,17vh,190px)">
+    <div class="case-open" data-reveal="" style="display:flex;align-items:center;justify-content:space-between;gap:16px 28px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid #2A2E3A">
+      <div style="display:flex;align-items:center;gap:clamp(14px,2.4vw,26px);min-width:0">
+        <span style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: clamp(46px,7.5vw,84px); line-height: .82; letter-spacing: -0.04em; color: #F7BE01; font-variant-numeric: tabular-nums">01</span>
+        <div style="min-width:0">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:#8A8B90">Case Study</div>
+          <div style="margin-top:6px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(21px,2.8vw,30px);letter-spacing:-0.02em;color:#25262E;line-height:1.12">AI 크리에이티브 파이프라인</div>
+        </div>
+      </div>
+      <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;border:1.5px solid #C6C5BD;border-radius:12px 2px 12px 2px;color:#55565C;white-space:nowrap">AI · 영상</span>
+    </div>
+    <div data-reveal="" style="margin-top:clamp(24px,3vw,36px)">
+      <h2 style="margin:0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(30px,4.2vw,48px);line-height:1.12;letter-spacing:-0.02em;color:#25262E;font-variant-numeric:tabular-nums">AI 6종을 직접 견주고,<br>워크플로우에 이식했습니다.</h2>
+      <p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#55565C;max-width:640px;font-variant-numeric:tabular-nums">단순한 사용 경험이 아니라 선별과 설계의 경험입니다. <br>완성된 파이프라인은 빠르고도 효율적입니다&nbsp; — 1일 완성.</p>
+    </div>
+    <div style="margin-top:48px;border-top:1px solid #DAD9D3" data-reveal="">
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(90px,14vw,200px) 1fr;gap:clamp(12px,2vw,24px);padding:28px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:28px;color:#DAD9D3;font-variant-numeric:tabular-nums">01</div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;letter-spacing:-0.02em;color:#25262E">분석</div>
+        <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #55565C; font-variant-numeric: tabular-nums">2024년 당시 AI 영상의 병목은 퀄리티가 아닌&nbsp;<strong style="font-weight: 600; color: rgb(37, 38, 46);">일관성과 인식률</strong> — ai 제작이 어느정도 티 나는 것은 당연한 시절. 관건은 오류를 얼마나 줄이느냐.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(90px,14vw,200px) 1fr;gap:clamp(12px,2vw,24px);padding:28px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:28px;color:#DAD9D3;font-variant-numeric:tabular-nums">02</div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;letter-spacing:-0.02em;color:#25262E">선별</div>
+        <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #55565C; font-variant-numeric: tabular-nums">당시 시장의 생성형 AI <strong style="font-weight:600;color:#25262E">6종을 직접 비교 테스트</strong> — Kling · Sora · Leonardo · GPT 이미지 등. '가장 유명한 툴'이 아니라, 일관성과 인식률이라는 이 프로젝트의 기준을 통과한 툴만 채택했습니다.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: clamp(44px,7vw,120px) clamp(90px,14vw,200px) 1fr; gap: clamp(12px,2vw,24px); padding: 28px 0; align-items: baseline; padding-top: 28px; padding-bottom: 28px; margin-top: 0px; margin-bottom: 38px">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:28px;color:#DAD9D3;font-variant-numeric:tabular-nums">03</div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;letter-spacing:-0.02em;color:#25262E">설계</div>
+        <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #55565C">선별한 툴로 4단계 파이프라인을 설계했습니다. Ai를 통해 자동화되고 신속한 제작 작업, 이외의 전체적인 설계는 직접.</p>
+      </div><div class="c2-callout" style="border-radius: 22px 3px 22px 3px; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 12px 40px; align-items: baseline; padding-top: 28px; padding-bottom: 28px; background-color: #FFFFFF; border: 1px solid #ECEBE5; box-shadow: 0 18px 40px -20px rgba(22,23,27,.28), 0 4px 12px -6px rgba(22,23,27,.1)" data-reveal="">
+      <div style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink)">Trial &amp; Error</div>
+      <p style="flex:1 1 400px;margin:0;font-size:14.5px;line-height:1.75;color:#25262E;font-variant-numeric:tabular-nums">2024년, 기술은 완성돼 있지 않았습니다. 이미지 인식률이 낮아 영상화 완성도가 떨어지자, 콘티 방향 자체를 수정해 인식이 가장 잘 되는 시안으로 재설계했습니다. <strong style="font-weight:600">툴의 한계에서 멈추지 않고, 결과를 기준으로 콘티와 툴을 함께 조정하는 것</strong> — 제가 AI를 다루는 방식입니다.</p>
+    </div>
+    </div>
+    <!-- 순서 전환 래퍼: stepsAfterMedia 트윅으로 스텝/미디어 순서 변경 -->
+    <div class="c2-flow" style="display:flex;flex-direction:column;gap:16px;margin-top:32px">
+    <!-- 파이프라인 스텝 다이어그램: 툴 + 선정 이유 + 역할 구분 -->
+    <div class="c2-steps" style="border-top:1px solid #DAD9D3;font-variant-numeric:tabular-nums" data-reveal="">
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(150px,22vw,280px) 1fr;gap:clamp(12px,2vw,24px);padding:26px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink)">Step 1</div>
+        <div>
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;letter-spacing:-0.02em;color:#25262E;line-height:1.35">주제 → 콘티</div>
+          <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#8A8B90">ChatGPT · 브레인스토밍</div>
+        </div>
+        <div>
+          
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#55565C">"왜 캔에 든 우유는 없을까?" — 질문 하나에서 출발한 기획. ChatGPT와 브레인스토밍하되, 최종 스토리라인은 직접 제작.</p><div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px"><span style="display:inline-flex;align-items:baseline;gap:8px;color:#55565C"><strong style="flex:none;font-family:'Pretendard',sans-serif;font-weight:700;font-size:10px;letter-spacing:.08em;padding:4px 9px;border:1px solid #DAD9D3;border-radius:8px 2px 8px 2px;background:#FFFFFF;color:#8A8B90">AI</strong> 아이디어 35% 제안</span><span style="display:inline-flex;align-items:baseline;gap:8px;color:#8A6D17"><strong style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 10px; letter-spacing: .08em; padding: 4px 9px; border: 1px solid #F1D492; border-radius: 8px 2px 8px 2px; color: var(--paper); background-color: #FFC401">ME</strong> 주제 설정 · 65% 직접 발전 · 콘티화</span></div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(150px,22vw,280px) 1fr;gap:clamp(12px,2vw,24px);padding:26px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink)">Step 2</div>
+        <div>
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;letter-spacing:-0.02em;color:#25262E;line-height:1.35">이미지 생성</div>
+          <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#8A8B90">Midjourney · 이미지 제작</div>
+        </div>
+        <div>
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#55565C">당시 가장 강력한 캐릭터 일관성(--sref)과 압도적인 퀄리티가 채택 이유. 프롬프트는 초안만 AI, 수정은 직접.</p>
+          <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px"><span style="display:inline-flex;align-items:baseline;gap:8px;color:#55565C"><strong style="flex:none;font-family:'Pretendard',sans-serif;font-weight:700;font-size:10px;letter-spacing:.08em;padding:4px 9px;border:1px solid #DAD9D3;border-radius:8px 2px 8px 2px;background:#FFFFFF;color:#8A8B90">AI</strong> 이미지 504장 생성</span><span style="display:inline-flex;align-items:baseline;gap:8px;color:#8A6D17"><strong style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 10px; letter-spacing: .08em; padding: 4px 9px; border: 1px solid #F1D492; border-radius: 8px 2px 8px 2px; color: var(--paper); background-color: #FFC401">ME</strong> 프롬프트 수정 반복 · 컷 방향 판단</span></div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(150px,22vw,280px) 1fr;gap:clamp(12px,2vw,24px);padding:26px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink)">Step 3</div>
+        <div>
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;letter-spacing:-0.02em;color:#25262E;line-height:1.35">영상화</div>
+          <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#8A8B90">Runway · 영상 소스 제작</div>
+        </div>
+        <div>
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#55565C">최고 수준의 이미지 인식률 + 무제한 생성이 채택 이유 — 260회를 실험하며 최고 퀄리티 소스만 추출.</p>
+          <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px"><span style="display:inline-flex;align-items:baseline;gap:8px;color:#55565C"><strong style="flex:none;font-family:'Pretendard',sans-serif;font-weight:700;font-size:10px;letter-spacing:.08em;padding:4px 9px;border:1px solid #DAD9D3;border-radius:8px 2px 8px 2px;background:#FFFFFF;color:#8A8B90">AI</strong> 영상 소스 260회 생성</span><span style="display:inline-flex;align-items:baseline;gap:8px;color:#8A6D17"><strong style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 10px; letter-spacing: .08em; padding: 4px 9px; border: 1px solid #F1D492; border-radius: 8px 2px 8px 2px; color: var(--paper); background-color: #FFC401">ME</strong> 실험 설계 · 쓸만한 컷 직접 선별</span></div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(150px,22vw,280px) 1fr;gap:clamp(12px,2vw,24px);padding:26px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink)">Step 4</div>
+        <div>
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;letter-spacing:-0.02em;color:#25262E;line-height:1.35">편집 → 완성</div>
+          <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12.5px;color:#8A8B90">Premiere · 편집</div>
+        </div>
+        <div>
+          
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#55565C">최종 완성도를 좌우하는 마무리 작업 — 사운드, 효과음 소스 직접 서칭, 편집에도 Ai를 효율적으로 사용하되 마무리는 사람이.</p><div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px"><span style="display:inline-flex;align-items:baseline;gap:8px;color:#8A6D17"><strong style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 10px; letter-spacing: .08em; padding: 4px 9px; border: 1px solid #F1D492; border-radius: 8px 2px 8px 2px; color: var(--paper); background-color: #FFC401">ME</strong> 편집 · 사운드 디자인 · 최종 완성</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- 시행착오 콜아웃 -->
+    
+    <!-- 영상 + 이미지 컷: 수평 레이아웃 -->
+    <div class="c2-media" style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start;max-width:960px" data-reveal="">
+      <div style="flex:1.25 1 420px;min-width:0">
+      <sc-if value="{{ hasPipeline }}" hint-placeholder-val="{{ false }}">
+        <div style="aspect-ratio:16/9;border-radius:22px 3px 22px 3px;overflow:hidden;background:#2A2E3A">
+          <iframe src="{{ pipelineEmbed }}" style="width:100%;height:100%;border:0;display:block" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen="{{ true }}" referrerpolicy="strict-origin-when-cross-origin" title="우유공장 이야기"></iframe>
+        </div>
+      </sc-if>
+      <sc-if value="{{ noPipeline }}" hint-placeholder-val="{{ true }}">
+        <div style="aspect-ratio:16/9;border-radius:22px 3px 22px 3px;background:linear-gradient(135deg,#2A2E3A 0%,#E8A200 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:24px">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.65)">Video Embed</div>
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;color:#F3F3F6">우유공장 이야기 — 본편 영상 자리</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.6)">YouTube 링크를 Tweaks의 '영상 링크'에 넣으면 바로 재생됩니다</div>
+        </div>
+      </sc-if>
+      </div>
+      <!-- AI 생성 이미지 슬라이드쇼 -->
+      <div class="c2-carousel" style="flex:1 1 340px;min-width:0">
+        <div class="c2-stage" style="position:relative;aspect-ratio:706/423;background:rgba(0,0,0,.04);border-radius:22px 3px 22px 3px;overflow:hidden">
+          <div class="c2-slide" data-idx="0" style="position:absolute;inset:0">
+            <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="case2-still-1" mask="inset(0 round 22px 3px 22px 3px)" placeholder="AI 생성 컷 1" style="width:100%;height:100%" hint-size="100%,100%"></x-import>
+          </div>
+          <div class="c2-slide" data-idx="1" style="position:absolute;inset:0;display:none">
+            <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="case2-still-2" mask="inset(0 round 22px 3px 22px 3px)" placeholder="AI 생성 컷 2" style="width:100%;height:100%" hint-size="100%,100%"></x-import>
+          </div>
+          <div class="c2-slide" data-idx="2" style="position:absolute;inset:0;display:none">
+            <img src="uploads/scent-feed-2.png" alt="AI 생성 컷 — 알루미늄 캔 공장" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:22px 3px 22px 3px">
+          </div>
+          <div class="c2-slide" data-idx="3" style="position:absolute;inset:0;display:none">
+            <img src="uploads/scent-feed-1.png" alt="AI 생성 컷 — 우유공장 캐릭터" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:22px 3px 22px 3px">
+          </div>
+          <button class="c2-prev" type="button" aria-label="이전 이미지" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);z-index:5;width:40px;height:40px;border:0;border-radius:10px 2px 10px 2px;cursor:pointer;background:rgba(22,23,27,.55);color:#F3F3F6;font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(6px)" style-hover="background:rgba(22,23,27,.85)">‹</button>
+          <button class="c2-next" type="button" aria-label="다음 이미지" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);z-index:5;width:40px;height:40px;border:0;border-radius:10px 2px 10px 2px;cursor:pointer;background:rgba(22,23,27,.55);color:#F3F3F6;font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(6px)" style-hover="background:rgba(22,23,27,.85)">›</button>
+        </div>
+        <div class="c2-thumbs" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px">
+          <button class="c2-thumb" data-idx="0" type="button" style="position:relative;aspect-ratio:706/423;border:0;padding:0;cursor:pointer;background:rgba(0,0,0,.05);border-radius:10px 2px 10px 2px;overflow:hidden;outline:1px solid #DAD9D3;outline-offset:0">
+            <img class="c2-thumb-img" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none">
+            <span class="c2-thumb-num" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Pretendard',sans-serif;font-weight:700;font-size:18px;color:#8A8B90;font-variant-numeric:tabular-nums">1</span>
+          </button>
+          <button class="c2-thumb" data-idx="1" type="button" style="position:relative;aspect-ratio:706/423;border:0;padding:0;cursor:pointer;background:rgba(0,0,0,.05);border-radius:10px 2px 10px 2px;overflow:hidden;outline:1px solid #DAD9D3;outline-offset:0">
+            <img class="c2-thumb-img" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none">
+            <span class="c2-thumb-num" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Pretendard',sans-serif;font-weight:700;font-size:18px;color:#8A8B90;font-variant-numeric:tabular-nums">2</span>
+          </button>
+          <button class="c2-thumb" data-idx="2" type="button" style="position:relative;aspect-ratio:706/423;border:0;padding:0;cursor:pointer;background:rgba(0,0,0,.05);border-radius:10px 2px 10px 2px;overflow:hidden;outline:1px solid #DAD9D3;outline-offset:0">
+            <img class="c2-thumb-img" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none">
+            <span class="c2-thumb-num" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Pretendard',sans-serif;font-weight:700;font-size:18px;color:#8A8B90;font-variant-numeric:tabular-nums">3</span>
+          </button>
+          <button class="c2-thumb" data-idx="3" type="button" style="position:relative;aspect-ratio:706/423;border:0;padding:0;cursor:pointer;background:rgba(0,0,0,.05);border-radius:10px 2px 10px 2px;overflow:hidden;outline:1px solid #DAD9D3;outline-offset:0">
+            <img class="c2-thumb-img" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none">
+            <span class="c2-thumb-num" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Pretendard',sans-serif;font-weight:700;font-size:18px;color:#8A8B90;font-variant-numeric:tabular-nums">4</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+    <!-- 왜 2024 사례인가 · 이후의 확장 -->
+    <div style="margin-top:40px" data-reveal="">
+      <div style="display:flex;align-items:center;gap:10px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">
+        <span style="display: inline-block; width: 20px; height: 2px; background-color: #FFC401"></span>
+        <span>Why 2024 · And Since</span>
+      </div>
+      <h3 style="margin:16px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.6vw,30px);letter-spacing:-0.02em;color:#25262E;max-width:720px;text-wrap:pretty">이 사례를 대표로 꼽은 이유는,<br>경험이 0일 때 워크플로우를 처음부터 만들었기 때문입니다.</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:24px">
+        <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:30px 28px">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90;font-variant-numeric:tabular-nums">2024 · 출발점</div>
+          <p style="margin:14px 0 0;font-size:14.5px;line-height:1.75;color:#55565C;text-wrap:pretty">AI 경험이 전무하던 시점에 6종을 직접 테스트·선별해 파이프라인을 처음부터 설계했습니다. 툴을 배운 경험이 아니라, <strong style="color:#25262E;font-weight:600">낯선 도구를 검증해 내 워크플로우로 만드는 방법</strong>을 증명한 사례입니다.</p>
+        </div>
+        <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:30px 28px">
+          <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #FFC401">그 이후 · 지금까지</div>
+          <p style="margin:14px 0 0;font-size:14.5px;line-height:1.75;color:#55565C;text-wrap:pretty">같은 방법으로 지금까지 신규 AI를 꾸준히 테스트하며 파이프라인을 갱신해 왔습니다 — Freepik · Hailuo · Higgsfield 등. 영상 제작을 넘어 <strong style="color:#25262E;font-weight:600">업무 자체의 효율을 높일 지점을 찾아 AI를 붙이는 일</strong>을 계속하고 있습니다.</p>
+        </div>
+      </div><div style="margin-top:40px;background:#2A2E3A;border-radius:22px 3px 22px 3px;padding:clamp(32px,4vw,44px) clamp(28px,4vw,48px);box-shadow:0 24px 48px -24px rgba(42,46,58,.5)" data-reveal="">
+      <div style="display:flex;flex-wrap:wrap;gap:40px 56px;align-items:center;justify-content:space-between">
+        <div>
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#12B76A;font-variant-numeric:tabular-nums">04 · Result</div>
+          <div style="margin-top:12px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(28px,3.2vw,36px);letter-spacing:-0.02em;color:#F3F3F6">파이프라인 자체 구축</div>
+        </div>
+        <div style="display:flex;gap:clamp(32px,5vw,56px);flex-wrap:wrap">
+          <div style="text-align:right;font-variant-numeric:tabular-nums">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(28px,3vw,36px);letter-spacing:-0.02em;color:#12B76A" data-countup="">504장</div>
+            <div style="margin-top:4px;font-size:13px;color:rgba(255,255,255,.65)">생성 이미지</div>
+          </div>
+          <div style="text-align:right;font-variant-numeric:tabular-nums">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(28px,3vw,36px);letter-spacing:-0.02em;color:#12B76A" data-countup="">260회</div>
+            <div style="margin-top:4px;font-size:13px;color:rgba(255,255,255,.65)">영상 생성</div>
+          </div>
+          <div style="text-align:right;font-variant-numeric:tabular-nums">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(28px,3vw,36px);letter-spacing:-0.02em;color:#12B76A">1일</div>
+            <div style="margin-top:4px;font-size:13px;color:rgba(255,255,255,.65)">총 제작 기간</div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);font-size:14px;line-height:1.7;color:rgba(255,255,255,.85)">이 방식은 영상 제작에 그치지 않습니다. 일하는 환경 어디서든 효율을 높일 지점을 찾아, 그에 맞는 AI를 검증·선별해 붙이는 것 — 에코마케팅이 투자하는 AI 마케팅 자동화와 같은 방향입니다.</div>
+    </div>
+    </div>
+  </div></section>
+
+<!-- ═══════ 4b · 케이스 2 미리캔버스 ═══════ -->
+<section id="case1" data-screen-label="05 미리캔버스" style="scroll-margin-top:72px;border-top:1px solid #DAD9D3">
+<div style="max-width:1160px;margin:0 auto;padding:clamp(72px,10vh,110px) clamp(20px,4vw,40px) clamp(120px,17vh,190px)">
+    <div class="case-open" data-reveal="" style="display:flex;align-items:center;justify-content:space-between;gap:16px 28px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid #2A2E3A">
+      <div style="display:flex;align-items:center;gap:clamp(14px,2.4vw,26px);min-width:0">
+        <span style="flex: none; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: clamp(46px,7.5vw,84px); line-height: .82; letter-spacing: -0.04em; color: #00AABE; font-variant-numeric: tabular-nums">02</span>
+        <div style="min-width:0">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:#8A8B90">Case Study</div>
+          <div style="margin-top:6px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(21px,2.8vw,30px);letter-spacing:-0.02em;color:#25262E;line-height:1.12">미리캔버스 광고 대전</div>
+        </div>
+      </div>
+      <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;border:1.5px solid #C6C5BD;border-radius:12px 2px 12px 2px;color:#55565C;white-space:nowrap">디자인 · 공모전</span>
+    </div>
+    <h2 data-reveal="" style="margin:clamp(24px,3vw,36px) 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(30px,4.2vw,48px);line-height:1.12;letter-spacing:-0.02em;color:#25262E;font-variant-numeric:tabular-nums">제작 3.5시간, 최우수상.</h2>
+    <p data-reveal="" style="margin:clamp(16px,2vw,22px) 0 0;font-size:clamp(15px,1.7vw,17px);line-height:1.75;color:#55565C;max-width:680px;text-wrap:pretty">미리캔버스가 자사 사용자를 대상으로 주최한 <strong style="color:#25262E;font-weight:600">1,500만원 규모의 광고 포스터 제작 공모전</strong>. 창의력을 발휘한 소재로 미리캔버스 이용자 저변을 넓히는 것이 목표였고, <strong style="color:#25262E;font-weight:600">수상작은 강남역 광고 게시판에 실제 개재</strong>됩니다.</p>
+    <div style="margin-top:48px;border-top:1px solid #DAD9D3" data-reveal="">
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(90px,14vw,200px) 1fr;gap:clamp(12px,2vw,24px);padding:28px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:28px;color:#DAD9D3;font-variant-numeric:tabular-nums">01</div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;letter-spacing:-0.02em;color:#25262E">분석</div>
+        <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #55565C; position: static">주최사 의도와 심사 우선순위를 먼저 예측했습니다. 공모전은 결국 주최사가 보여주고 싶은 것을 대신 만들어 주는 일이라는 판단.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(90px,14vw,200px) 1fr;gap:clamp(12px,2vw,24px);padding:28px 0;border-bottom:1px solid #DAD9D3;align-items:baseline">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:28px;color:#DAD9D3;font-variant-numeric:tabular-nums">02</div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;letter-spacing:-0.02em;color:#25262E">가설</div>
+        <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #55565C; position: static">AI 기능이 갓 출시된 시점 — 그 기능을 직접 써서 만든 포스터가 심사에 유리할 것.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(44px,7vw,120px) clamp(90px,14vw,200px) 1fr;gap:clamp(12px,2vw,24px);padding:28px 0;align-items:baseline">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:28px;color:#DAD9D3;font-variant-numeric:tabular-nums">03</div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:19px;letter-spacing:-0.02em;color:#25262E">실행</div>
+        <p style="margin: 0; font-size: 14px; line-height: 1.7; color: #55565C; position: static">수상작은 강남역에 개재된다는 점을 역활용. 청록×주황 색조합으로 심심하지 않으며 눈에 띄는 디자인 제작.</p>
+      </div>
+    </div>
+    <!-- 이미지: 수상작 포스터 + 과정 컷 (실제 비율에 맞춰 높이 기준으로 컴팩트하게) -->
+    <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; align-items: flex-start" data-reveal="">
+      <div style="flex:0 0 auto;width:clamp(170px,22vw,217px);aspect-ratio:578/800">
+        <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="case1-poster" fit="contain" mask="inset(0 round 22px 3px 22px 3px)" placeholder="수상작 포스터 이미지" style="width:100%;height:100%" hint-size="217px,300px"></x-import>
+      </div>
+      <div style="flex:0 0 auto;width:clamp(360px,52vw,533px);aspect-ratio:16/9">
+        <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="case1-process" fit="contain" mask="inset(0 round 22px 3px 22px 3px)" placeholder="제작 과정 · 적용 연출 컷" style="width:100%;height:100%" hint-size="533px,300px"></x-import>
+      </div>
+    </div>
+    <!-- 심화: 리서치·검증 근거 -->
+    <div style="margin-top:40px" data-reveal="">
+      <div style="display: flex; align-items: center; gap: 10px; font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #00AABE">
+        <span style="display: inline-block; width: 20px; height: 2px; background-color: #00AABE"></span>
+        <span style="color: #00AABE">Research &amp; Validation</span>
+      </div>
+      <h3 style="margin:16px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.6vw,30px);letter-spacing:-0.02em;color:#25262E">가설은 리서치로 확정하고, 손끝으로 검증했습니다.</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:24px">
+        <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:30px 28px;display:flex;flex-direction:column">
+          <div style="display:flex;align-items:baseline;gap:10px">
+            <span style="font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 20px; color: #00AABE; font-variant-numeric: tabular-nums">01</span>
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;letter-spacing:-0.02em;color:#25262E">수상 사례 리서치로 가설 확정</div>
+          </div>
+          <p style="margin:14px 0 0;font-size:14.5px;line-height:1.75;color:#55565C">가설을 세우는 데서 멈추지 않았습니다. 미리캔버스 광고 대전의 <strong style="color:#25262E;font-weight:600">이전 수상 사례들을 직접 서칭</strong>하고, 어떤 결이 반복적으로 뽑히는지 분석했습니다. 그 패턴으로 ‘주최사가 보여주고 싶은 것’이라는 가설을 데이터로 확고히 했습니다.</p>
+        </div>
+        <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:30px 28px;display:flex;flex-direction:column">
+          <div style="display:flex;align-items:baseline;gap:10px">
+            <span style="font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 20px; color: #00AABE; font-variant-numeric: tabular-nums">02</span>
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;letter-spacing:-0.02em;color:#25262E">AI 기능을 직접 써보고 밸런싱</div>
+          </div>
+          <p style="margin:14px 0 0;font-size:14.5px;line-height:1.75;color:#55565C">무작정 디자인에 들어가지 않았습니다. 미리캔버스 앱의 <strong style="color: rgb(37, 38, 46); font-weight: 600;">신규 AI 기능을 실제로 사용</strong>해 플로우를 직접 경험한 뒤, 빠르게 이해시키되 실제 사용경험과 유사한 디자인으로&nbsp;&nbsp;<strong style="color: rgb(37, 38, 46); font-weight: 600;">밸런스를 조율</strong>해 시각화했습니다. 사용자들이 실제로 사용해보았을 때, 이질감이 안 느껴지도록.</p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:40px;background:#2A2E3A;border-radius:22px 3px 22px 3px;padding:clamp(32px,4vw,44px) clamp(28px,4vw,48px);display:flex;flex-wrap:wrap;gap:40px 56px;align-items:center;justify-content:space-between" data-reveal="">
+      <div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#12B76A;font-variant-numeric:tabular-nums">04 · Result</div>
+        <div style="margin-top:12px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(32px,3.5vw,40px);letter-spacing:-0.02em;color:#F3F3F6">최우수상</div>
+      </div>
+      <div style="display:flex;gap:clamp(32px,5vw,56px);flex-wrap:wrap">
+        <div style="text-align:right;font-variant-numeric:tabular-nums">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(28px,3vw,36px);letter-spacing:-0.02em;color:#12B76A" data-countup="">1,500만원</div>
+          <div style="margin-top:4px;font-size:13px;color:rgba(255,255,255,.55)">공모전 규모</div>
+        </div>
+        <div style="text-align:right;font-variant-numeric:tabular-nums">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(28px,3vw,36px);letter-spacing:-0.02em;color:#12B76A" data-countup="">3.5hr</div>
+          <div style="margin-top:4px;font-size:13px;color:rgba(255,255,255,.55)">기획 → 제출</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 디자인 프로젝트 더보기 -->
+    <div class="more-projects-wrap" style="margin-top:clamp(44px,6vh,64px)">
+      <div style="display:flex;justify-content:center">
+        <button class="mp-toggle" type="button" style="cursor:pointer;background:#FFFFFF;border:1.5px solid #C6C5BD;border-radius:22px 3px 22px 3px;display:flex;align-items:center;gap:14px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:16px;letter-spacing:-0.01em;color:#25262E;padding:16px 26px;transition:transform .45s cubic-bezier(.34,1.4,.5,1),border-color .3s,box-shadow .3s">
+          <span class="mp-toggle-label">디자인 프로젝트 더보기</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12.5px;color:#00A7B7;background:#DDF3F5;border-radius:12px 2px 12px 2px;padding:4px 10px;font-variant-numeric:tabular-nums">+3</span>
+          <span class="mp-toggle-arrow" style="display:inline-flex;width:34px;height:34px;background:#00A7B7;border-radius:12px 2px 12px 2px;align-items:center;justify-content:center;font-size:16px;color:#FFFFFF;animation:mpBob 1.6s ease-in-out infinite;transition:transform .5s cubic-bezier(.34,1.4,.5,1)">↓</span>
+        </button>
+      </div>
+      <div class="mp-panel" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .65s cubic-bezier(.22,1,.36,1)">
+        <div style="min-height:0;overflow:hidden">
+          <div style="padding-top:32px">
+
+            <div class="mp-item" style="border-top:1px solid #DAD9D3">
+              <button class="mp-head" type="button" style="cursor:pointer;width:100%;background:transparent;border:none;display:flex;align-items:center;gap:18px;padding:22px 4px;text-align:left">
+                <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:15px;color:#C6C5BD;font-variant-numeric:tabular-nums">01</span>
+                <span style="flex:1;min-width:0">
+                  <span style="display:block;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(17px,2vw,20px);letter-spacing:-0.02em;color:#25262E">Seoul Metro Indicator</span>
+                  <span style="display:block;margin-top:3px;font-size:12.5px;color:#8A8B90">AR · 모션그래픽</span>
+                </span>
+                <span class="mp-arrow" style="flex: none; display: inline-flex; width: 30px; height: 30px; border: 1px solid #DAD9D3; border-radius: 10px 2px 10px 2px; align-items: center; justify-content: center; font-size: 13px; color: #09A9B9; transition: transform .5s cubic-bezier(.34,1.4,.5,1)">↓</span>
+              </button>
+              <div class="mp-body" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s cubic-bezier(.22,1,.36,1)">
+                <div style="min-height:0;overflow:hidden">
+                  <div style="padding:2px 4px 32px;display:flex;flex-direction:column;gap:18px">
+                    <p style="margin:0;max-width:680px;font-size:14.5px;line-height:1.75;color:#55565C;text-wrap:pretty">AR(증강현실) 프로젝트. 서울 지하철 안에서 현재 역·다음 역 정보를 증강현실로 띄워, 역을 지나치는 사고를 방지하는 인디케이터를 설계·모션화했습니다.</p>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+                      <span style="display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#55565C;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;padding:6px 12px 6px 6px"><img src="icons/aftereffects.png" alt="After Effects" style="width:24px;height:24px;border-radius:8px 2px 8px 2px;object-fit:cover;display:inline-block;vertical-align:middle">After Effects</span>
+                    </div>
+                    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:14px">
+                      <img class="mp-asset" src="uploads/comp-1-2.gif" alt="Seoul Metro Indicator — 신촌" style="width: 100%; display: block; border: 1px solid #DAD9D3; border-radius: 16px 2px 16px 2px; background-color: #808080">
+                      <img class="mp-asset" src="uploads/comp-1-3.gif" alt="Seoul Metro Indicator — 마곡나루" style="width: 100%; display: block; border: 1px solid #DAD9D3; border-radius: 16px 2px 16px 2px; background-color: #808080">
+                      <img class="mp-asset" src="uploads/hongdae-1080.gif" alt="Seoul Metro Indicator — 홍대입구" style="width: 100%; display: block; border: 1px solid #DAD9D3; border-radius: 16px 2px 16px 2px; background-color: #808080">
+                      <img class="mp-asset" src="uploads/gwanghwamun-1080.gif" alt="Seoul Metro Indicator — 서대문" style="width: 100%; display: block; border: 1px solid #DAD9D3; border-radius: 16px 2px 16px 2px; background-color: #808080">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mp-item" style="border-top:1px solid #DAD9D3">
+              <button class="mp-head" type="button" style="cursor:pointer;width:100%;background:transparent;border:none;display:flex;align-items:center;gap:18px;padding:22px 4px;text-align:left">
+                <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:15px;color:#C6C5BD;font-variant-numeric:tabular-nums">02</span>
+                <span style="flex:1;min-width:0">
+                  <span style="display:block;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(17px,2vw,20px);letter-spacing:-0.02em;color:#25262E">중꺾마의 유래</span>
+                  <span style="display:block;margin-top:3px;font-size:12.5px;color:#8A8B90">인포그래픽 · 일러스트</span>
+                </span>
+                <span class="mp-arrow" style="flex: none; display: inline-flex; width: 30px; height: 30px; border: 1px solid #DAD9D3; border-radius: 10px 2px 10px 2px; align-items: center; justify-content: center; font-size: 13px; color: #00A7B7; transition: transform .5s cubic-bezier(.34,1.4,.5,1)">↓</span>
+              </button>
+              <div class="mp-body" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s cubic-bezier(.22,1,.36,1)">
+                <div style="min-height:0;overflow:hidden">
+                  <div style="padding:2px 4px 32px;display:flex;flex-direction:column;gap:18px">
+                    <p style="margin:0;max-width:680px;font-size:14.5px;line-height:1.75;color:#55565C;text-wrap:pretty">2022년 롤드컵에서 유래한 밈 "중요한 것은 꺾이지 않는 마음"의 유래를 다룬 인포그래픽. 캐릭터·저지·로고 등 모든 그래픽을 직접 그려 제작했습니다.</p>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+                      <span style="display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#55565C;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;padding:6px 12px 6px 6px"><img src="icons/illustrator.png" alt="Illustrator" style="width:24px;height:24px;border-radius:8px 2px 8px 2px;object-fit:cover;display:inline-block;vertical-align:middle">Illustrator</span>
+                      <span style="display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#55565C;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;padding:6px 12px 6px 6px"><img src="icons/aftereffects.png" alt="After Effects" style="width:24px;height:24px;border-radius:8px 2px 8px 2px;object-fit:cover;display:inline-block;vertical-align:middle">After Effects</span>
+                    </div>
+                    <div style="display:flex;flex-wrap:wrap;gap:14px">
+                      <img class="mp-asset" src="uploads/blebe-02.png" alt="중꺾마 — 게이머 일러스트" style="width:clamp(120px,15vw,164px);aspect-ratio:595/842;object-fit:contain;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px">
+                      <img class="mp-asset" src="uploads/blebe-01.png" alt="중꺾마 — 캐릭터" style="width:clamp(120px,15vw,164px);aspect-ratio:595/842;object-fit:contain;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px">
+                      <img class="mp-asset" src="uploads/blebe-03.png" alt="중꺾마 — 캐릭터 표정" style="width:clamp(120px,15vw,164px);aspect-ratio:595/842;object-fit:contain;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px">
+                      <img class="mp-asset" src="uploads/blebe-04.png" alt="중꺾마 — 팀 저지" style="width:clamp(120px,15vw,164px);aspect-ratio:595/842;object-fit:contain;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px">
+                      <span class="mp-asset" style="position:relative;display:block;width:clamp(120px,15vw,164px)">
+                        <img src="uploads/blebe-05.png" alt="중꺾마 — 팀 로고" style="width:100%;aspect-ratio:595/842;object-fit:contain;background:#FFFFFF;display:block;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px">
+                        <span style="position:absolute;right:8px;bottom:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 10px;border-radius:8px 2px 8px 2px;background:rgba(42,46,58,.82);color:#F3F3F6;white-space:nowrap;backdrop-filter:blur(4px)">외 14개 추가 에셋 +</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mp-item" style="border-top:1px solid #DAD9D3;border-bottom:1px solid #DAD9D3">
+              <button class="mp-head" type="button" style="cursor:pointer;width:100%;background:transparent;border:none;display:flex;align-items:center;gap:18px;padding:22px 4px;text-align:left">
+                <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:15px;color:#C6C5BD;font-variant-numeric:tabular-nums">03</span>
+                <span style="flex:1;min-width:0">
+                  <span style="display:block;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(17px,2vw,20px);letter-spacing:-0.02em;color:#25262E">BLEBE</span>
+                  <span style="display:block;margin-top:3px;font-size:12.5px;color:#8A8B90">앱 기획 · UI/UX</span>
+                </span>
+                <span class="mp-arrow" style="flex: none; display: inline-flex; width: 30px; height: 30px; border: 1px solid #DAD9D3; border-radius: 10px 2px 10px 2px; align-items: center; justify-content: center; font-size: 13px; color: #00A7B7; transition: transform .5s cubic-bezier(.34,1.4,.5,1)">↓</span>
+              </button>
+              <div class="mp-body" style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s cubic-bezier(.22,1,.36,1)">
+                <div style="min-height:0;overflow:hidden">
+                  <div style="padding:2px 4px 32px;display:flex;flex-direction:column;gap:18px">
+                    <p style="margin:0;max-width:680px;font-size:14.5px;line-height:1.75;color:#55565C;text-wrap:pretty">AI로 음악을 만들어 공유하고, 친구들과 관계를 맺으며 소통하는 앱. 서비스 기획부터 UI/UX 디자인까지 직접 맡았습니다.</p>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+                      <span style="display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#55565C;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;padding:6px 12px 6px 6px"><img src="icons/figma.png" alt="Figma" style="width:24px;height:24px;border-radius:8px 2px 8px 2px;object-fit:cover;display:inline-block;vertical-align:middle">Figma</span>
+                      <span style="display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#55565C;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;padding:6px 12px 6px 6px"><img src="icons/illustrator.png" alt="Illustrator" style="width:24px;height:24px;border-radius:8px 2px 8px 2px;object-fit:cover;display:inline-block;vertical-align:middle">Illustrator</span>
+                    </div>
+                    <div style="display:flex;flex-wrap:wrap;gap:14px">
+                      <img class="mp-asset" src="uploads/iphone-23.png" alt="BLEBE — 홈 피드" style="width:clamp(128px,16vw,168px);aspect-ratio:428/900;object-fit:cover;object-position:top;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:18px 2px 18px 2px">
+                      <img class="mp-asset" src="uploads/iphone-28.png" alt="BLEBE — 보관함" style="width:clamp(128px,16vw,168px);aspect-ratio:428/900;object-fit:cover;object-position:top;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:18px 2px 18px 2px">
+                      <img class="mp-asset" src="uploads/iphone-34.png" alt="BLEBE — 프렌즈" style="width:clamp(128px,16vw,168px);aspect-ratio:428/900;object-fit:cover;object-position:top;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:18px 2px 18px 2px">
+                      <img class="mp-asset" src="uploads/iphone-36.png" alt="BLEBE — 플레이어" style="width:clamp(128px,16vw,168px);aspect-ratio:428/900;object-fit:cover;object-position:top;background:#FFFFFF;border:1px solid #DAD9D3;border-radius:18px 2px 18px 2px">
+                      <span class="mp-asset" style="position:relative;display:block;width:clamp(128px,16vw,168px)">
+                        <img src="uploads/iphone-40.png" alt="BLEBE — 메시지" style="width:100%;aspect-ratio:428/900;object-fit:cover;object-position:top;background:#FFFFFF;display:block;border:1px solid #DAD9D3;border-radius:18px 2px 18px 2px">
+                        <span style="position:absolute;right:8px;bottom:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 10px;border-radius:8px 2px 8px 2px;background:rgba(42,46,58,.82);color:#F3F3F6;white-space:nowrap;backdrop-filter:blur(4px)">외 24장 추가 페이지 +</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<!-- ═══════ 5 · 영상 동아리 경험 (숏폼 + 인스타 통합) ═══════ -->
+<section id="experience" data-screen-label="06 동아리 경험" style="scroll-margin-top:72px;border-top:1px solid #DAD9D3">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(72px,10vh,110px) clamp(20px,4vw,40px) 0">
+    <div data-reveal="">
+      <div class="case-open" style="display:flex;align-items:center;justify-content:space-between;gap:16px 28px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid #2A2E3A">
+        <div style="display:flex;align-items:center;gap:clamp(14px,2.4vw,26px);min-width:0">
+          <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(46px,7.5vw,84px);line-height:.82;letter-spacing:-0.04em;color:#E8590C;font-variant-numeric:tabular-nums">03</span>
+          <div style="min-width:0">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:#8A8B90">Team &amp; Channel</div>
+            <div style="margin-top:6px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(21px,2.8vw,30px);letter-spacing:-0.02em;color:#25262E;line-height:1.12">블루스크린 영상 동아리</div>
+          </div>
+        </div>
+        <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;border:1.5px solid #C6C5BD;border-radius:12px 2px 12px 2px;color:#55565C;white-space:nowrap">팀워크 · 채널운영</span>
+      </div>
+      <h2 style="margin:24px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(30px,4.2vw,48px);line-height:1.12;letter-spacing:-0.02em;color:#25262E;font-variant-numeric:tabular-nums">4년 · 14편, 한 팀에서<br>모든 역할을 해봤습니다.</h2>
+      <p style="margin:16px 0 0;font-size:16px;line-height:1.7;color:#55565C;max-width:680px;font-variant-numeric:tabular-nums">영상 제작 동아리 <strong style="color:#25262E;font-weight:600">블루스크린</strong>에서 4년간 단편영화·숏폼·예능·다큐 <strong style="color:#25262E;font-weight:600">14편</strong> 제작에 참여했습니다. 작품 안에서는 총감독·편집·스토리기획·카메라·미술팀장까지 역할을 오갔고, 밖에서는 3년간 총무와 공식 인스타그램 운영을 맡아 팀이 굴러가게 했습니다.</p>
+    </div>
+    <!-- 큰 숫자 배지 -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:14px;margin-top:44px" data-reveal="">
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px">
+        <div style="display:flex;align-items:baseline;gap:4px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(36px,4.5vw,48px);letter-spacing:-0.02em;color:#25262E;font-variant-numeric:tabular-nums"><span data-countup="">14</span><span style="font-size:19px;color:#8A8B90">편</span></div>
+        <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">참여 제작물 · 단편·숏폼·예능·다큐</div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px">
+        <div style="display:flex;align-items:baseline;gap:4px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(36px,4.5vw,48px);letter-spacing:-0.02em;color:#25262E;font-variant-numeric:tabular-nums"><span data-countup="">4</span><span style="font-size:19px;color:#8A8B90">년</span></div>
+        <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">동아리 활동 기간</div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px">
+        <div style="display:flex;align-items:baseline;gap:4px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(36px,4.5vw,48px);letter-spacing:-0.02em;color:#25262E;font-variant-numeric:tabular-nums"><span data-countup="">3</span><span style="font-size:19px;color:#8A8B90">년</span></div>
+        <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">총무 · 공식 계정 관리</div>
+      </div>
+    </div>
+    <!-- 역할 칩 + 협업 -->
+    <div style="margin-top:24px;display:flex;flex-wrap:wrap;gap:8px" data-reveal="">
+      <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;background:#FBE3D8;border-radius:12px 2px 12px 2px;color:#E8590C">총감독</span>
+      <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;background:#FBE3D8;border-radius:12px 2px 12px 2px;color:#E8590C">편집</span>
+      <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;background:#FBE3D8;border-radius:12px 2px 12px 2px;color:#E8590C">스토리 기획</span>
+      <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;background:#FBE3D8;border-radius:12px 2px 12px 2px;color:#E8590C">카메라 감독</span>
+      <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;background:#FBE3D8;border-radius:12px 2px 12px 2px;color:#E8590C">미술팀장</span>
+      <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">총무 · 계정 관리</span>
+    </div>
+    <p style="margin:20px 0 0;font-size:15px;line-height:1.75;color:#55565C;max-width:720px" data-reveal="">여러 규모의 팀에서 역할을 나누고 의견을 조율하며 하나의 결과물로 수렴시키는 과정을 반복했습니다. 서로 다른 포지션을 직접 겪어봤기에, 각 파트가 무엇을 필요로 하는지 알고 소통합니다.</p>
+  </div>
+
+  <!-- 봉 시그니처: 풀블리드 다크 밴드 -->
+  <section id="signature" data-screen-label="06b 봉을아십니까" style="scroll-margin-top: 72px; margin-top: clamp(56px,8vh,88px); background-color: var(--ink)">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(64px,9vh,92px) clamp(20px,4vw,40px)">
+    <div data-reveal="">
+      <div class="case-open" style="display:flex;align-items:center;justify-content:space-between;gap:16px 28px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid rgba(255,255,255,.24)">
+        <div style="display:flex;align-items:center;gap:clamp(14px,2.4vw,26px);min-width:0">
+          
+          <div style="min-width:0">
+            <div style="font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase; color: #E8590C">Signature · Interactive Film</div>
+            <div style="margin-top:6px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(21px,2.8vw,30px);letter-spacing:-0.02em;color:#F3F3F6;line-height:1.12">봉을 아십니까?</div>
+          </div>
+        </div>
+        <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;border:1.5px solid rgba(255,255,255,.3);border-radius:12px 2px 12px 2px;color:#F3F3F6;white-space:nowrap">인터랙티브 · 크리에이티브</span>
+      </div>
+      <h2 style="margin: 24px 0 0; font-family: 'Pretendard',sans-serif; font-weight: 700; font-size: clamp(24px,3vw,34px); line-height: 1.1; letter-spacing: -0.02em; color: #F3F3F6">‘봉을 아십니까?’<br>시청자가 완성하는 23분.</h2>
+      <p style="margin:20px 0 0;max-width:660px;font-size:16px;line-height:1.75;color:rgba(255,255,255,.66);font-variant-numeric:tabular-nums">유튜브 <strong style="color:#F3F3F6;font-weight:600">추천영상 기능을 분기 장치로 뒤집어</strong>, 시청자의 선택에 따라 결말이 갈라지는 인터랙티브 단편을 설계했습니다. 저는 이 작품의 <strong style="color:#F3F3F6;font-weight:600">크리에이티브 담당</strong>으로, 관습을 벗어난 포맷을 설계하고 만드는 데 핵심 역할을 맡았습니다.</p>
+    </div>
+    <!-- 큰 숫자 배지 -->
+    <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:44px" data-reveal="">
+      <div style="flex:1 1 150px;min-width:0;padding:26px 28px;border:1px solid rgba(255,255,255,.14);border-radius:22px 3px 22px 3px">
+        <div style="display:flex;align-items:baseline;gap:4px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(40px,5vw,56px);letter-spacing:-0.02em;color:#F3F3F6;font-variant-numeric:tabular-nums"><span data-countup="">23</span><span style="font-size:20px;color:rgba(255,255,255,.5)">분</span></div>
+        <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5)">Runtime</div>
+      </div>
+      <div style="flex:1 1 150px;min-width:0;padding:26px 28px;border:1px solid rgba(255,255,255,.14);border-radius:22px 3px 22px 3px">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(40px,5vw,56px);letter-spacing:-0.02em;color:#F3F3F6;font-variant-numeric:tabular-nums" data-countup="">16</div>
+        <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5)">영상 노드 · Videos</div>
+      </div>
+      <div style="flex:1 1 150px;min-width:0;padding:26px 28px;border:1px solid rgba(255,255,255,.14);border-radius:22px 3px 22px 3px">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(40px,5vw,56px);letter-spacing:-0.02em;color:#F3F3F6;font-variant-numeric:tabular-nums" data-countup="">6</div>
+        <div style="margin-top:8px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5)">분기점 · Branch Points</div>
+      </div>
+      <div style="flex: 1 1 150px; min-width: 0; padding: 26px 28px; border: 1px solid rgba(108,110,245,.5); border-radius: 22px 3px 22px 3px; background-color: #FBE3D824; border-color: #E9681F80">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(40px,5vw,56px);letter-spacing:-0.02em;color:#F3F3F6;font-variant-numeric:tabular-nums" data-countup="">8</div>
+        <div style="margin-top: 8px; font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #E2520E">결말 · Endings</div>
+      </div>
+    </div>
+    <!-- 영상 + 인터랙티브 분기 맵 -->
+    <div style="display:flex;flex-wrap:wrap;gap:24px;margin-top:24px;align-items:stretch" data-reveal="">
+      <div style="flex:1.1 1 380px;min-width:0;display:flex;flex-direction:column;gap:12px">
+        <sc-if value="{{ hasBong }}" hint-placeholder-val="{{ false }}">
+          <div style="aspect-ratio:16/9;border-radius:22px 3px 22px 3px;overflow:hidden;background:#000">
+            <iframe src="{{ bongEmbed }}" style="width:100%;height:100%;border:0;display:block" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen="{{ true }}" referrerpolicy="strict-origin-when-cross-origin" title="봉을 아십니까"></iframe>
+          </div>
+        </sc-if>
+        <sc-if value="{{ noBong }}" hint-placeholder-val="{{ true }}">
+          <div style="aspect-ratio:16/9;border-radius:22px 3px 22px 3px;background:linear-gradient(135deg,#343A48 0%,#3538CD 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:20px">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.65)">Video Embed</div>
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:18px;color:#F3F3F6">‘봉을 아십니까?’ 본편 자리</div>
+            <div style="font-size:13px;color:rgba(255,255,255,.6)">Tweaks의 ‘영상 링크’에 YouTube URL을 넣으면 재생됩니다</div>
+          </div>
+        </sc-if>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;padding:8px 14px;border:1px solid rgba(255,255,255,.22);border-radius:12px 2px 12px 2px;color:#F3F3F6">인터랙티브 단편</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;padding:8px 14px;border:1px solid rgba(255,255,255,.22);border-radius:12px 2px 12px 2px;color:#F3F3F6">크리에이티브 담당</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;padding:8px 14px;border:1px solid rgba(255,255,255,.22);border-radius:12px 2px 12px 2px;color:#F3F3F6">포맷 설계</span>
+        </div>
+        <!-- 제작 능력치 -->
+        <div class="skill-block" style="margin-top:10px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);border-radius:22px 3px 22px 3px;padding:24px 26px;display:flex;flex-direction:column;gap:18px">
+          <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #E8590C">Production Skills</div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:16px 24px">
+            <div style="display:flex;align-items:center;gap:12px">
+              
+              <div style="flex:1;min-width:0">
+                <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:13px;color:#F3F3F6">촬영</div>
+                <div class="skill-bar" data-pct="84" style="display:flex;gap:4px;margin-top:7px">
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px">
+              
+              <div style="flex:1;min-width:0">
+                <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:13px;color:#F3F3F6">조명</div>
+                <div class="skill-bar" data-pct="80" style="display:flex;gap:4px;margin-top:7px">
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width:0%;height:100%;background:#6C6EF5"></div></div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px">
+              
+              <div style="flex:1;min-width:0">
+                <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:13px;color:#F3F3F6">사운드</div>
+                <div class="skill-bar" data-pct="88" style="display:flex;gap:4px;margin-top:7px">
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px">
+              
+              <div style="flex:1;min-width:0">
+                <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:13px;color:#F3F3F6">잡일 / 체력</div>
+                <div class="skill-bar" data-pct="96" style="display:flex;gap:4px;margin-top:7px">
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                  <div style="flex:1;height:9px;border:1px solid rgba(255,255,255,.28);border-radius:4px 1px 4px 1px;overflow:hidden"><div class="skill-fill" style="width: 0%; height: 100%; background-color: #E8590C"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p style="margin:0;font-size:13px;line-height:1.7;color:rgba(255,255,255,.6);text-wrap:pretty">다양한 활동에 참여하면서 촬영에 필요한 역량을 고르게 키웠습니다. 그중에서도 모든 촬영의 근간이 되는 체력과 멘탈이, 자신만의 루틴을 찾아가며 가장 많이 성장했습니다.</p>
+        </div>
+      </div>
+      <!-- 인터랙티브 분기 맵 -->
+      <div class="bong-map" style="flex:1 1 380px;min-width:0;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);border-radius:22px 3px 22px 3px;padding:28px 26px;display:flex;flex-direction:column">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #E8590C">Decision Map</div>
+        <p style="margin:12px 0 0;font-size:13.5px;line-height:1.65;color:rgba(255,255,255,.6)">분기점(A–F)을 누르면 그 선택에서 도달 가능한 결말이 강조됩니다. 다시 누르면 전체 보기.</p>
+        <div style="margin-top:20px;display:flex;flex-direction:column;gap:2px;font-variant-numeric:tabular-nums">
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0;font-size:13px;color:#F3F3F6;font-weight:600">봉을 아십니까? <span style="font-size:11px;color:rgba(255,255,255,.4)">시작 · 3:21</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 12px;font-size:12.5px;color:rgba(255,255,255,.7)"><span style="color:rgba(255,255,255,.3)">└</span>① 이야기를 들어본다 <span style="font-size:11px;color:rgba(255,255,255,.4)">0:49</span> <span style="color:rgba(255,255,255,.35)">·</span> ② 뿌리친다 <span style="font-size:11px;color:rgba(255,255,255,.4)">0:34</span> <span style="font-size: 11px; color: #E8590C">→ 합류</span></div>
+          <div style="padding:4px 0 4px 12px"><button class="bong-branch" type="button" data-reach="0,1,2,3,4,5,6,7" style="cursor:pointer;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 11px;border:1px solid rgba(255,255,255,.28);border-radius:12px 2px 12px 2px;background:transparent;color:#F3F3F6;transition:all .25s">분기점 A</button></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 24px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★1 단도직입적으로 따진다 · 0:42</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 24px;font-size:12.5px;color:rgba(255,255,255,.7)"><span style="color:rgba(255,255,255,.3)">└</span>④ 사이비에 접근해 내막을 알아낸다 <span style="font-size:11px;color:rgba(255,255,255,.4)">1:47</span></div>
+          <div style="padding:4px 0 4px 36px"><button class="bong-branch" type="button" data-reach="1,2,3,4,5,6,7" style="cursor:pointer;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 11px;border:1px solid rgba(255,255,255,.28);border-radius:12px 2px 12px 2px;background:transparent;color:#F3F3F6;transition:all .25s">분기점 B</button></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 48px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★2 사이비를 경찰에 신고한다 · 0:51</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 48px;font-size:12.5px;color:rgba(255,255,255,.7)"><span style="color:rgba(255,255,255,.3)">└</span>⑥ 서진이를 의심한다 <span style="font-size:11px;color:rgba(255,255,255,.4)">0:38</span></div>
+          <div style="padding:4px 0 4px 60px"><button class="bong-branch" type="button" data-reach="2,3,4,5,6,7" style="cursor:pointer;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 11px;border:1px solid rgba(255,255,255,.28);border-radius:12px 2px 12px 2px;background:transparent;color:#F3F3F6;transition:all .25s">분기점 C · 3지선다</button></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 72px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★3 한 번 더 몰아세운다 · 0:37</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 72px;font-size:12.5px;color:rgba(255,255,255,.7)"><span style="color:rgba(255,255,255,.3)">└</span>⑧ 서진이를 달랜다 <span style="font-size:11px;color:rgba(255,255,255,.4)">0:52</span></div>
+          <div style="padding:4px 0 4px 84px"><button class="bong-branch" type="button" data-reach="3,4,5" style="cursor:pointer;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 11px;border:1px solid rgba(255,255,255,.28);border-radius:12px 2px 12px 2px;background:transparent;color:#F3F3F6;transition:all .25s">분기점 D</button></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 96px;font-size:12.5px;color:rgba(255,255,255,.7)"><span style="color:rgba(255,255,255,.3)">└</span>⑨ 서진이 집에 간다 <span style="font-size:11px;color:rgba(255,255,255,.4)">1:43</span></div>
+          <div style="padding:4px 0 4px 108px"><button class="bong-branch" type="button" data-reach="3,4" style="cursor:pointer;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 11px;border:1px solid rgba(255,255,255,.28);border-radius:12px 2px 12px 2px;background:transparent;color:#F3F3F6;transition:all .25s">분기점 E</button></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 120px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★4 오해를 푼다 · 1:07</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 120px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★5 지금 상황을 즐긴다 · 0:32</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 96px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★6 그냥 집에 간다 · 1:56</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 72px;font-size:12.5px;color:rgba(255,255,255,.7)"><span style="color:rgba(255,255,255,.3)">└</span>⑪ 경위를 설명한다 <span style="font-size:11px;color:rgba(255,255,255,.4)">3:31</span></div>
+          <div style="padding:4px 0 4px 84px"><button class="bong-branch" type="button" data-reach="6,7" style="cursor:pointer;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;padding:5px 11px;border:1px solid rgba(255,255,255,.28);border-radius:12px 2px 12px 2px;background:transparent;color:#F3F3F6;transition:all .25s">분기점 F</button></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 96px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★7 교주 한다 · 0:32</span></div>
+          <div style="display:flex;align-items:baseline;gap:8px;padding:3px 0 3px 96px;font-size:12.5px"><span style="color:rgba(255,255,255,.3)">└</span><span class="bong-ending" style="font-weight:600;font-size:11.5px;padding:4px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px 2px 8px 2px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.5);transition:all .25s">★8 거절한다 · 1:26</span></div>
+        </div>
+        <div style="margin-top:auto;padding-top:18px;font-size:11.5px;line-height:1.6;color:rgba(255,255,255,.4)">* 영상 16개 · 분기점 6개 · 결말 8개로 구성된 실제 전개도입니다. ①·②는 서사가 합류하는 도입 선택지입니다.</div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(56px,8vh,80px) clamp(20px,4vw,40px) clamp(120px,17vh,190px)">
+    <!-- 서브 A · 숏폼 -->
+    <div data-reveal="">
+      <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #E8590C">A · Short-form</div>
+      <h3 style="margin:14px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:-0.02em;color:#25262E">수요에 맞춘 숏폼, 두 번의 심사로 검증.</h3>
+      <p style="margin:14px 0 0;font-size:15px;line-height:1.7;color:#55565C;max-width:640px">플랫폼과 심사 기준을 먼저 읽고, 그에 맞는 소재를 빠르게 기획해 퀄리티로 완성합니다. 조회수가 아니라 심사라는 기준을 통과한 성과입니다.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:16px;margin-top:28px">
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:36px 32px;display:flex;flex-wrap:wrap;gap:28px" data-reveal="" data-reveal-delay="100">
+        <div style="flex:1.3 1 220px;display:flex;flex-direction:column;min-width:0">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90;font-variant-numeric:tabular-nums">장교숙소 5단지 공모전</div>
+          <div style="margin-top:20px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:44px;letter-spacing:-0.02em;color:#25262E">입선</div>
+          <p style="margin:16px 0 0;font-size:14px;line-height:1.7;color:#55565C">2인 팀의 총감독 겸 편집으로 30초 안에 메시지를 압축한 숏폼. 기획부터 완성까지 주도했습니다.</p>
+          <div style="margin-top:auto;padding-top:24px;display:flex;flex-wrap:wrap;gap:16px 24px;font-variant-numeric:tabular-nums">
+            <div><div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#25262E">30초</div><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">런타임 · 2인 팀</div></div>
+            <div><div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#12B76A">80%</div><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">기여도 · 총감독+편집</div></div>
+          </div>
+        </div>
+        <div style="flex:0 0 180px">
+          <sc-if value="{{ hasShorts2 }}" hint-placeholder-val="{{ false }}">
+            <div style="aspect-ratio:9/16;border-radius:12px 2px 12px 2px;overflow:hidden;background:#000">
+              <iframe src="{{ shorts2Embed }}" style="width:100%;height:100%;border:0;display:block" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen="{{ true }}" referrerpolicy="strict-origin-when-cross-origin" title="장교숙소 쇼츠"></iframe>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noShorts2 }}" hint-placeholder-val="{{ true }}">
+            <div style="aspect-ratio:9/16;border-radius:12px 2px 12px 2px;background:linear-gradient(135deg,#E8E8E4 0%,#E7E7FB 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:16px">
+              <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">Shorts</div>
+              <div style="font-size:13px;line-height:1.5;color:#55565C">출품작 쇼츠<br>영상 자리</div>
+            </div>
+          </sc-if>
+        </div>
+      </div><div style="background:#2A2E3A;border-radius:22px 3px 22px 3px;padding:36px 32px;display:flex;flex-wrap:wrap;gap:28px" data-reveal="">
+        <div style="flex:1.3 1 220px;display:flex;flex-direction:column;min-width:0">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">서울경제 쇼츠 챌린지</div>
+          <div style="margin-top:20px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:44px;letter-spacing:-0.02em;color:#F3F3F6">대상</div>
+          <p style="margin:16px 0 0;font-size:14px;line-height:1.7;color:rgba(255,255,255,.65)">심사 기준을 역산해 소재를 설계한 숏폼. 8인 팀의 편집을 맡아 완성도를 책임졌습니다.</p>
+          <div style="margin-top:auto;padding-top:24px;display:flex;flex-wrap:wrap;gap:16px 24px;font-variant-numeric:tabular-nums">
+            <div><div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#F3F3F6">8인</div><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5)">팀 규모</div></div>
+            <div><div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#12B76A">45%</div><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5)">기여도 · 편집</div></div>
+          </div>
+        </div>
+        <div style="flex:0 0 180px">
+          <sc-if value="{{ hasShorts1 }}" hint-placeholder-val="{{ false }}">
+            <div style="aspect-ratio:9/16;border-radius:12px 2px 12px 2px;overflow:hidden;background:#000">
+              <iframe src="{{ shorts1Embed }}" style="width:100%;height:100%;border:0;display:block" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen="{{ true }}" referrerpolicy="strict-origin-when-cross-origin" title="서울경제 쇼츠"></iframe>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noShorts1 }}" hint-placeholder-val="{{ true }}">
+            <div style="aspect-ratio:9/16;border-radius:12px 2px 12px 2px;background:linear-gradient(135deg,#343A48 0%,#3538CD 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:16px">
+              <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)">Shorts</div>
+              <div style="font-size:13px;line-height:1.5;color:#F3F3F6">수상작 쇼츠<br>영상 자리</div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- 서브 B · 인스타 운영 -->
+    <div style="margin-top:64px;padding-top:44px;border-top:1px solid #DAD9D3" data-reveal="">
+      <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #E8590C">B · Channel Operation</div>
+      <h3 style="margin:14px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:-0.02em;color:#25262E">공식 인스타그램, 3년의 풀사이클.</h3>
+      <p style="margin:14px 0 0;font-size:15px;line-height:1.7;color:#55565C;max-width:680px">계정 관리인으로서 크리에이티브 이미지를 직접 제작해 게시하고, <strong style="color:#25262E;font-weight:600">무엇을 올릴지</strong> 지속적으로 고민했습니다. 부원들이 만든 콘텐츠는 검수를 거쳐 올리며 정보의 정확성을 책임졌습니다.</p>
+    </div>
+    <!-- 대표 콘텐츠 이미지 3컷 -->
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,190px));gap:16px;margin-top:28px;justify-content:start" data-reveal="">
+      <div class="insta-fig" style="position:relative;aspect-ratio:4/5;border-radius:16px 2px 16px 2px;overflow:hidden;border:1px solid #DAD9D3;background:#fff"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="insta-1" fit="contain" mask="inset(0 round 16px 2px 16px 2px)" placeholder="상영회 홍보" style="width:100%;height:100%" hint-size="100%,188px"></x-import><div class="insta-cap" style="position:absolute;left:0;right:0;bottom:0;padding:20px 14px 12px;background:linear-gradient(to top,rgba(22,23,27,.94) 0%,rgba(22,23,27,.72) 55%,rgba(22,23,27,0) 100%);transform:translateY(14px);opacity:0;transition:transform .4s cubic-bezier(.34,1.4,.5,1),opacity .35s ease;pointer-events:none"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11.5px;letter-spacing:-0.01em;color:#F3F3F6;line-height:1.3">상영회 홍보 및 포스터 디자인</div><div style="margin-top:5px;font-size:10.5px;line-height:1.5;color:rgba(255,255,255,.72)">정기 상영회를 인스타그램으로 홍보·정리했습니다.</div></div></div>
+      <div class="insta-fig" style="position:relative;aspect-ratio:4/5;border-radius:16px 2px 16px 2px;overflow:hidden;border:1px solid #DAD9D3;background:#fff"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="insta-2" fit="contain" mask="inset(0 round 16px 2px 16px 2px)" placeholder="영상 제작 가이드" style="width:100%;height:100%" hint-size="100%,188px"></x-import><div class="insta-cap" style="position:absolute;left:0;right:0;bottom:0;padding:20px 14px 12px;background:linear-gradient(to top,rgba(22,23,27,.94) 0%,rgba(22,23,27,.72) 55%,rgba(22,23,27,0) 100%);transform:translateY(14px);opacity:0;transition:transform .4s cubic-bezier(.34,1.4,.5,1),opacity .35s ease;pointer-events:none"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11.5px;letter-spacing:-0.01em;color:#F3F3F6;line-height:1.3">영상 제작 가이드 제작</div><div style="margin-top:5px;font-size:10.5px;line-height:1.5;color:rgba(255,255,255,.72)">경험이 없는 사람도 쉽게 배우는 제작 가이드라인을 제작·업로드했습니다.</div></div></div>
+      <div class="insta-fig" style="position:relative;aspect-ratio:4/5;border-radius:16px 2px 16px 2px;overflow:hidden;border:1px solid #DAD9D3;background:#fff"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="insta-3" fit="contain" mask="inset(0 round 16px 2px 16px 2px)" placeholder="영화 추천 콘텐츠" style="width:100%;height:100%" hint-size="100%,188px"></x-import><div class="insta-cap" style="position:absolute;left:0;right:0;bottom:0;padding:20px 14px 12px;background:linear-gradient(to top,rgba(22,23,27,.94) 0%,rgba(22,23,27,.72) 55%,rgba(22,23,27,0) 100%);transform:translateY(14px);opacity:0;transition:transform .4s cubic-bezier(.34,1.4,.5,1),opacity .35s ease;pointer-events:none"><div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11.5px;letter-spacing:-0.01em;color:#F3F3F6;line-height:1.3">영화 추천 콘텐츠</div><div style="margin-top:5px;font-size:10.5px;line-height:1.5;color:rgba(255,255,255,.72)">게시물로 영화 감상 콘텐츠를 제작했습니다.</div></div></div>
+    </div>
+    <!-- 콘텐츠 종류 + 검수 -->
+    <div style="display:flex;flex-direction:column;gap:16px;margin-top:24px;max-width:572px">
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px" data-reveal="">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: #E85C11">기획한 콘텐츠 종류</div>
+        <ul style="margin:16px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.55;color:#55565C">
+          <li style="display:flex;gap:10px"><span style="flex: none; width: 6px; height: 6px; margin-top: 7px; border-radius: 2px; background-color: #E86016"></span><span>정보 전달형 — 동아리 이벤트·리크루팅 안내</span></li>
+          <li style="display:flex;gap:10px"><span style="flex: none; width: 6px; height: 6px; margin-top: 7px; border-radius: 2px; background-color: #E86016"></span><span>제작 비하인드 아카이브</span></li>
+          <li style="display:flex;gap:10px"><span style="flex: none; width: 6px; height: 6px; margin-top: 7px; border-radius: 2px; background-color: #E86016"></span><span>영상 제작 초보를 위한 팁 <span style="color:#8A8B90">(직접 기획·제작)</span></span></li>
+        </ul>
+      </div>
+      <div style="background:#2A2E3A;border-radius:22px 3px 22px 3px;padding:28px 26px;display:flex;flex-direction:column" data-reveal="" data-reveal-delay="80">
+        <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: #E8590C">정보 전달의 꼼꼼함</div>
+        <p style="margin:16px 0 0;font-size:14px;line-height:1.7;color:rgba(255,255,255,.7)">부원들이 제작한 콘텐츠를 받아 <strong style="color:#F3F3F6;font-weight:600">문안·정보를 검수한 뒤 게시</strong>하는 과정을 3년간 반복했습니다. 계정의 정보 정확성은 제 책임이었습니다.</p>
+        <div style="margin-top:auto;padding-top:20px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5)">꼼꼼하고 책임감 있는 계정 관리</div>
+      </div>
+    </div>
+    <!-- 성과 수치 자리: 실제 인스타그램 인사이트 수치로 채워질 자리. 임의 숫자 입력 금지. -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:16px;margin-top:16px">
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px" data-reveal="">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">관여 게시물</div>
+        <div style="margin-top:16px;display:flex;align-items:baseline;gap:4px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:40px;color:#25262E;font-variant-numeric:tabular-nums"><span data-countup="">50</span><span style="font-size:24px;color:#8A8B90">+</span></div>
+        <div style="margin-top:12px;font-size:12px;line-height:1.6;color:#8A8B90">기획·제작·검수로 관여한 게시물</div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px" data-reveal="" data-reveal-delay="80">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">동아리 회원 증가율</div>
+        <div style="margin-top:16px;display:flex;align-items:baseline;gap:5px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:40px;color:#12B76A;font-variant-numeric:tabular-nums"><span style="font-size:28px">↑</span><span data-countup="">132</span><span style="font-size:24px">%</span></div>
+        <div style="margin-top:12px;font-size:12px;line-height:1.6;color:#8A8B90">19명 → 44명 (2020-2H → 2021-1H)</div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:28px 26px" data-reveal="" data-reveal-delay="160">
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">콘텐츠 검수율</div>
+        <div style="margin-top:16px;display:flex;align-items:baseline;gap:2px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:40px;color:#25262E;font-variant-numeric:tabular-nums"><span data-countup="">100</span><span style="font-size:24px;color:#8A8B90">%</span></div>
+        <div style="margin-top:12px;font-size:12px;line-height:1.6;color:#8A8B90">부원 게시물 전량 검수 후 게시</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 7 · 전략 사례 (심층) ═══════ -->
+<section id="strategy" data-screen-label="07 전략 사례" style="scroll-margin-top:72px;border-top:1px solid #DAD9D3">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(72px,10vh,110px) clamp(20px,4vw,40px)">
+    <div data-reveal="">
+      <div class="case-open" style="display:flex;align-items:center;justify-content:space-between;gap:16px 28px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid #2A2E3A">
+        <div style="display:flex;align-items:center;gap:clamp(14px,2.4vw,26px);min-width:0">
+          <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(46px,7.5vw,84px);line-height:.82;letter-spacing:-0.04em;color:#2E7D4B;font-variant-numeric:tabular-nums">04</span>
+          <div style="min-width:0">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:#8A8B90">Strategy Work</div>
+            <div style="margin-top:6px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(21px,2.8vw,30px);letter-spacing:-0.02em;color:#25262E;line-height:1.12">THE SCENT of PAGE</div>
+          </div>
+        </div>
+        <span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:600;font-size:12px;padding:9px 15px;border:1.5px solid #C6C5BD;border-radius:12px 2px 12px 2px;color:#55565C;white-space:nowrap">데이터 · 브랜딩</span>
+      </div>
+      <h2 style="margin:24px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(30px,4.2vw,48px);line-height:1.12;letter-spacing:-0.02em;color:#25262E">데이터로 문제를 규정하고,<br>인사이트로 포지션을 다시 세웁니다.</h2>
+      <p style="margin:16px 0 0;font-size:16px;line-height:1.7;color:#55565C;max-width:680px;font-variant-numeric:tabular-nums">시장 데이터에서 문제를 읽고, 관습을 뒤집는 인사이트로 브랜드의 자리를 재정의한 전략 프로젝트입니다.</p>
+    </div>
+
+    <!-- 캠페인 · THE SCENT of PAGE -->
+    <div style="margin-top:48px;padding-top:44px;border-top:1px solid #DAD9D3" data-reveal="">
+      <!-- 1) 헤더 -->
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px 40px">
+        <div style="min-width:0">
+          <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8B90">Strategy</div>
+          <h3 style="margin:14px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(26px,3vw,36px);letter-spacing:-0.02em;color:#25262E">THE SCENT of PAGE</h3>
+          <p style="margin:12px 0 0;font-size:15px;line-height:1.7;color:#55565C;max-width:600px">교보문고 마케팅팀의 실제 브리프. 리브랜딩이 계획된 제품에 의미를 붙여 마케팅 전략을 세웠습니다.</p>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;font-variant-numeric:tabular-nums">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.02em;padding:8px 14px;background:#2E7D4B;border-radius:12px 2px 12px 2px;color:#F3F3F6">실제 기업 브리프</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.02em;padding:8px 14px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">마케팅 전략</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.02em;padding:8px 14px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">브랜드 메시지 정의</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.02em;padding:8px 14px;border:1px solid #DAD9D3;border-radius:12px 2px 12px 2px;color:#55565C">AI 비주얼 제작</span>
+        </div>
+      </div>
+      <!-- 역할 분담 한 줄 -->
+      <div style="margin-top:20px;display:flex;flex-wrap:wrap;gap:10px 28px;font-size:13px;color:#55565C;font-variant-numeric:tabular-nums">
+        <span><span style="color: rgb(138, 139, 144);">회사 제공</span> &nbsp;제품 · 리브랜딩 · 향 정보</span>
+        <span style="color:#DAD9D3">|</span>
+        <span><span style="color: rgb(46, 125, 75); font-weight: 600;">담당</span> &nbsp;마케팅 전략 · 브랜드 메시지 · AI 비주얼 제작</span>
+        <span style="color:#DAD9D3">|</span>
+        <span>4인 · 기획 70% · AI 제작 100% · 3주</span>
+      </div>
+
+      <!-- STEP 01 · 시장 조사 -->
+      <div style="margin-top:40px;padding-left:clamp(0px,2vw,20px);border-left:2px solid #E4E3DD">
+        <div style="display:flex;align-items:baseline;gap:14px;margin-left:clamp(0px,2vw,-20px)">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#2E7D4B;font-variant-numeric:tabular-nums">Step 01</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(18px,2.2vw,24px);letter-spacing:-0.02em;color:#25262E">시장 조사 — 세 가지 신호</span>
+        </div>
+        <div style="margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;font-variant-numeric:tabular-nums">
+          <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:24px 24px">
+            <div style="display:flex;align-items:baseline;gap:8px"><span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:-0.02em;color:#8A8B90">6,035억</span><span style="color:#2E7D4B">→</span><span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:-0.02em;color:#25262E">9,800억</span></div>
+            <div style="margin-top:8px;font-size:13px;font-weight:600;color:#25262E">향수 시장, 6년 새 1.6배 전망</div>
+            <p style="margin:8px 0 0;font-size:12.5px;line-height:1.6;color:#55565C">2019→2025(E). 불황에도 향은 계속 팔린다 — 시장 자체가 커지는 중.</p>
+          </div>
+          <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:24px 24px">
+            <div><span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:-0.02em;color:#25262E">2030</span><span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;color:#2E7D4B"> 이 주도</span></div>
+            <div style="margin-top:8px;font-size:13px;font-weight:600;color:#25262E">젊은 층의 향 수요 급증</div>
+            <p style="margin:8px 0 0;font-size:12.5px;line-height:1.6;color:#55565C">'나를 표현하는 수단'이 화장에서 향으로. 개성 소비의 중심 품목이 됐다.</p>
+          </div>
+          <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:24px 24px">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:-0.02em;color:#25262E">세계관<span style="font-size:17px;color:#2E7D4B">의 시대</span></div>
+            <div style="margin-top:8px;font-size:13px;font-weight:600;color:#25262E">스토리텔링이 구매를 만든다</div>
+            <p style="margin:8px 0 0;font-size:12.5px;line-height:1.6;color:#55565C">니치향수의 인기 요인은 향 자체보다 조향사의 세계관과 서사. 이야기 없는 향은 방향제로 남는다.</p>
+          </div>
+        </div>
+        <div style="margin-top:12px;font-size:11px;color:#8A8B90">출처 · 유로모니터 국내 향수시장 규모(2019–2025E), 업계 니치향수 시장 분석 보도(2023–2024)</div>
+      </div>
+
+      <!-- STEP 02 · 가설 (타이포 애니메이션) -->
+      <div style="margin-top:32px;padding-left:clamp(0px,2vw,20px);border-left:2px solid #E4E3DD;text-align:left" data-scent-flip="">
+        <div style="display:flex;align-items:baseline;gap:14px">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#2E7D4B;font-variant-numeric:tabular-nums">Step 02</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(18px,2.2vw,24px);letter-spacing:-0.02em;color:#25262E">가설 — 향에 이야기(이미지)를 붙여 향을 상상하게 만든다</span>
+        </div>
+        <p style="margin:14px 0 0;font-size:14px;line-height:1.75;color:#55565C;max-width:620px;text-wrap:pretty">숲의 향은 좋은 속성이지만, 그 자체로는 이야기가 아니다. 감각을 끌어올리고 추가적인 상상을 이끌어내는 <strong style="color:#25262E;font-weight:600">한 문구</strong>가 필요하다고 판단했다.</p>
+        <div style="margin-top:26px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(34px,5.4vw,64px);letter-spacing:-0.03em;line-height:1.3;color:#25262E;text-align:left">
+          <span data-sf-new="" style="display: inline-block; max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap; vertical-align: bottom; color: #2F4F06">영감이 시작되는&nbsp;</span><span style="vertical-align:bottom;white-space:nowrap">숲의 향</span>
+        </div>
+        <div style="margin-top:14px;display:grid;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-variant-numeric:tabular-nums">
+          <span data-sf-label-old="" style="grid-area:1/1;color:#8A8B90;opacity:1">회사가 준 것 · 속성</span>
+          <span data-sf-label-new="" style="grid-area:1/1;color:#2E7D4B;opacity:0">내가 만든 것 · 의미</span>
+        </div>
+        <p style="margin:18px 0 0;font-size:14px;line-height:1.75;color:#55565C;max-width:600px"><strong style="color: rgb(37, 38, 46); font-weight: 600;">‘향’은 상수, 의미는 변수.</strong> 회사가 준 속성은 그대로 두고, 그 앞에 붙는 의미만 새로 설계했다. 이 캠페인의 핵심 단어를 설정한 뒤, 마케팅 전략을 통해 이를 뒷바침 한다.</p><div data-scent-parallax="" style="position:relative;margin-top:20px;border-radius:16px 2px 16px 2px;padding:clamp(22px,2.8vw,32px) clamp(22px,2.8vw,32px);overflow:hidden">
+          <img src="./scent-parallax.webp" alt="" aria-hidden="true" data-scent-parallax-img="" style="position:absolute;left:0;top:-46%;width:100%;height:192%;object-fit:cover;z-index:0;will-change:transform">
+          <div style="position:absolute;inset:0;background:rgba(20,24,18,.28);z-index:1"></div>
+          <div style="position:relative;z-index:2;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px 40px">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(20px,2.4vw,28px);line-height:1.3;letter-spacing:-0.02em;color:#F3F3F6">"창작자들에게 영감이 되는 숲의 향기"</div>
+            <div style="font-family:'Pretendard',sans-serif;font-weight:400;font-size:14px;color:rgba(255,255,255,.6)">Slogan — 나를 깨우는 생각의 숲</div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- STEP 03 · 포지션 -->
+      <div style="margin-top:32px;padding-left:clamp(0px,2vw,20px);border-left:2px solid #E4E3DD">
+        <div style="display:flex;align-items:baseline;gap:14px">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#2E7D4B;font-variant-numeric:tabular-nums">Step 03</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(18px,2.2vw,24px);letter-spacing:-0.02em;color:#25262E">포지션 — 프리미엄과 싸우지 않는다</span>
+        </div>
+        <div style="margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;font-variant-numeric:tabular-nums">
+          <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:24px 24px">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#8A8B90">니치 · 프리미엄 향수</div>
+            <div style="margin-top:10px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:-0.02em;color:#8A8B90">10만~50만원</div>
+            <p style="margin:8px 0 0;font-size:12.5px;line-height:1.6;color:#55565C">시장의 약 90%를 차지하는 가격대. 경쟁 시장을 재설정한다.</p>
+          </div>
+          <div style="background:#DFEEE4;border:1px solid #D3D3F5;border-radius:16px 2px 16px 2px;padding:24px 24px">
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#2E7D4B">The Scent of Page</div>
+            <div style="margin-top:10px;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:-0.02em;color:#2E7D4B">2~4만원대</div>
+            <p style="margin:8px 0 0;font-size:12.5px;line-height:1.6;color:#25262E">프리미엄을 사기엔 부담스러운 <strong style="font-weight:600">대학생·사회초년생</strong>의 첫 공간 향 — 빈자리는 여기다.</p>
+          </div>
+        </div>
+        <p style="margin:16px 0 0;font-size:14px;line-height:1.75;color:#55565C;max-width:620px;text-wrap:pretty">가격과 판매 접점(서점)을 고려하면 이 브랜드의 싸움터는 프리미엄이 아니다. <br><strong style="color: rgb(37, 38, 46); font-weight: 600;">향에 막 입문하는 세대를 끌어낼 전략</strong>이 필요했다.</p>
+      </div>
+
+      <!-- STEP 04 · 전략 · 자가발전 루프 -->
+      <div style="margin-top:32px;padding-left:clamp(0px,2vw,20px);border-left:2px solid #2E7D4B">
+        <div style="display:flex;align-items:baseline;gap:14px">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#2E7D4B;font-variant-numeric:tabular-nums">Step 04</span>
+          <span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(18px,2.2vw,24px);letter-spacing:-0.02em;color:#25262E">전략 — 공모전으로 '영감이 시작되는 향'을 증명</span>
+        </div>
+        <p style="margin:14px 0 0;font-size:14px;line-height:1.75;color:#55565C;max-width:620px;text-wrap:pretty">타깃(대학생·초년생)에게 효과적인 광고 방식으로 떠오른 UGC광고 방식을 채택. <br>브랜드가 말하는 대신, 창작자가 증명하게 했다.</p>
+      <div style="margin-top:20px;background:#F4F4F1;border:1px solid #E4E3DD;border-radius:22px 3px 22px 3px;padding:clamp(28px,3.4vw,40px) clamp(26px,3.4vw,40px)">
+        <h4 style="margin:0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(19px,2.3vw,26px);letter-spacing:-0.02em;color:#25262E;max-width:640px;text-wrap:pretty">향은 설명할 수 없다. 그래서 설명하지 않고, 증명하게 했다.</h4>
+        <!-- 4노드 + 회귀 화살표 -->
+        <div style="position:relative;margin-top:28px;padding-bottom:64px">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px">
+            <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:22px 22px">
+              <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;color:#2E7D4B;font-variant-numeric:tabular-nums">01 &nbsp;공모전</div>
+              <p style="margin:10px 0 0;font-size:13px;line-height:1.6;color:#55565C">직접 만드는 대신, 광고를 만들 사람을 부른다. 영상·미술·시나리오, 등 장르. 수상자에게 상금 및 특별 에디션 증정.</p>
+            </div>
+            <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:22px 22px">
+              <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;color:#2E7D4B;font-variant-numeric:tabular-nums">02 &nbsp;출품작</div>
+              <p style="margin:10px 0 0;font-size:13px;line-height:1.6;color:#55565C">창의력과 영감을 심사 기준으로, 브랜딩에 도움이 되는 수상작을 선정하며 이를 통해 브랜드를 구축해간다</p>
+            </div>
+            <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:16px 2px 16px 2px;padding:22px 22px">
+              <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;color:#2E7D4B;font-variant-numeric:tabular-nums">03 &nbsp;피드</div>
+              <p style="margin:10px 0 0;font-size:13px;line-height:1.6;color:#55565C">브랜드는 액자를 제공, 창작자들의 실력을 뽑낼 수 있는 창작마당이 되어 잠재 고객들에게 다가간다.</p>
+            </div>
+            <div style="background:#DFEEE4;border:1px solid #D3D3F5;border-radius:16px 2px 16px 2px;padding:22px 22px">
+              <div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:12px;color:#2E7D4B;font-variant-numeric:tabular-nums">04 &nbsp;증명</div>
+              <p style="margin:10px 0 0;font-size:13px;line-height:1.6;color:#2E7D4B">"영감을 준다"고 말하지 않는다. 영감받은 결과물이 쌓인 화면이 대신 말한다.</p>
+            </div>
+          </div>
+          <!-- 회귀(닫힌 루프) 화살표 -->
+          <div style="position:absolute;left:8px;right:8px;bottom:8px;height:40px;border:1.5px dashed #2E7D4B;border-top:none;border-radius:0 0 16px 16px"></div>
+          <div style="position:absolute;left:2px;bottom:40px;font-size:15px;line-height:1;color:#2E7D4B">↑</div>
+          <div style="position:absolute;left:0;right:0;bottom:0;text-align:center;transform:translateY(50%)"><span style="background:#F4F4F1;padding:0 12px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.04em;color:#2E7D4B">증명이 순환이 결국 브랜드를 강화시킨다</span></div>
+        </div>
+        <div style="margin-top:8px;font-size:13px;line-height:1.7;color:#8A8B90">이 루프에서 브랜드는 한 마디도 하지 않는다. 수상작 활용 동의는 응모 요강에 포함해 저작권 리스크를 차단한다.</div>
+      </div>
+      </div>
+
+      <!-- 5b) 현실 진단: 팔로워 161 → 공모전 전략의 근거 -->
+      <div style="max-width:1160px;margin:0 auto;padding:clamp(48px,7vh,80px) clamp(20px,4vw,40px) 0" data-reveal="">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(24px,4vw,56px);align-items:center">
+          <div>
+            
+            <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2E7D4B">EXPECTATION · 공식 계정 활성화</div><h4 style="margin:14px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:clamp(20px,2.4vw,26px);line-height:1.35;letter-spacing:-0.02em;color:#25262E">팔로워 161명.<br>현재 조용한 계정의 활약이 시작된다.</h4>
+            <p style="margin:16px 0 0;font-size:14.5px;line-height:1.8;color:#55565C;text-wrap:pretty">공식 인스타그램의 현재 규모로는 브랜드가 소재를 올려도 타깃에게 닿지 않습니다. 공모전 전략은 이 계정을 바꿉니다 — <strong style="color:#25262E;font-weight:600">참여자 한 명이 곧 팔로워·콘텐츠·공유자가 되고</strong>, 창작하는 대학생·사회초년생이라는 타깃이 스스로 모여드는 채널이 됩니다. 광고비 없이 타깃 정중앙에 도달하는 인스타 마케팅입니다.</p>
+          </div>
+          <div style="background:#FFFFFF;border:1px solid #DAD9D3;border-radius:22px 3px 22px 3px;padding:clamp(24px,3vw,34px) clamp(24px,3.4vw,40px);box-shadow:0 18px 40px -22px rgba(22,23,27,.22)">
+            <div style="display:flex;align-items:center;gap:18px">
+              <div style="flex:none;width:64px;height:64px;border-radius:50%;background:#1E3327;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Pretendard',sans-serif;font-weight:600;font-size:8.5px;line-height:1.35;letter-spacing:.04em;color:#EDE9DC">THE<br>SCENT<br>of PAGE</div>
+              <div style="min-width:0">
+                <div style="display:flex;align-items:center;gap:6px"><span style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.01em;color:#25262E">thescentof_page</span><span data-scent-badge="" style="display:inline-flex;opacity:0;transform:scale(.4);transition:opacity .4s ease,transform .5s cubic-bezier(.34,1.56,.5,1)"><svg width="16" height="16" viewBox="0 0 24 24" role="img" aria-label="verified"><circle cx="12" cy="12" r="11" fill="#3897F0"></circle><path d="M17 8.5l-6.4 6.4L7 11.3" fill="none" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></div>
+                <div style="margin-top:3px;font-size:12.5px;color:#8A8B90">교보문고 The Scent of Page · 공식 계정</div>
+              </div>
+            </div>
+            <div style="display:flex;gap:clamp(20px,3vw,36px);margin-top:20px;padding-top:18px;border-top:1px solid #ECEBE5;font-variant-numeric:tabular-nums">
+              <div><div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#25262E">45</div><div style="margin-top:2px;font-size:11.5px;color:#8A8B90">게시물</div></div>
+              <div><div data-scent-follower="" style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#C0392B;font-variant-numeric:tabular-nums">161</div><div data-scent-follower-label="" style="margin-top:2px;font-size:11.5px;color:#C0392B;font-weight:600">팔로워</div></div>
+              <div><div style="font-family:'Pretendard',sans-serif;font-weight:700;font-size:22px;color:#25262E">3</div><div style="margin-top:2px;font-size:11.5px;color:#8A8B90">팔로우</div></div>
+            </div>
+            <div style="margin-top:16px;display:flex;align-items:baseline;gap:8px;font-size:12.5px;line-height:1.6;color:#55565C"><span style="flex:none;font-family:'Pretendard',sans-serif;font-weight:700;font-size:11px;color:#2E7D4B">→</span><span>현재 공식계정 팔로워 161명 [2026.07.03 기준]</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6) Brand Film · AI 제작 -->
+      <sc-if value="{{ showScentVideos }}" hint-placeholder-val="{{ true }}">
+      <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px,7vh,80px) clamp(20px,4vw,40px) 0; border-style: solid; border-color: #000000; width: 1065px; height: 379px; border-width: 0px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(24px,4vw,56px);align-items:center">
+      <div>
+        <div style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#2E7D4B">Official Account · 창작 마당</div>
+        <h4 style="margin:14px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:clamp(20px,2.4vw,26px);line-height:1.35;letter-spacing:-0.02em;color:#25262E">수상작이 곧 피드가 됩니다.<br>계정은 창작자의 마당이 됩니다.</h4>
+        <p style="margin:16px 0 0;font-size:14.5px;line-height:1.8;color:#55565C;text-wrap:pretty">공모전 수상작은 THE SCENT of PAGE 공식 인스타그램에 게시됩니다. 브랜드가 소재를 만드는 대신 창작자의 작품이 피드를 채우고, 계정 자체가 창작자들이 모이는 마당으로 굴러갑니다 — 게시 한 번이 곧 간접 홍보입니다.</p>
+        <div style="margin-top:22px;display:flex;flex-direction:column;gap:10px;font-size:13.5px;color:#55565C;font-variant-numeric:tabular-nums">
+          <div style="display:flex;align-items:baseline;gap:10px"><span style="color:#2E7D4B;font-weight:600">1</span><span>정기 공모전 — 영상 · 미술 · 시나리오</span></div>
+          <div style="display:flex;align-items:baseline;gap:10px"><span style="color:#2E7D4B;font-weight:600">2</span><span>수상작을 공식 계정에 게시 · 트로피 에디션 수여</span></div>
+          <div style="display:flex;align-items:baseline;gap:10px"><span style="color:#2E7D4B;font-weight:600">3</span><span>피드가 창작 마당이 되고, 브랜드는 간접 홍보를 얻는 선순환</span></div>
+        </div>
+      </div>
+      <img src="uploads/scent-insta-mock.png" alt="THE SCENT of PAGE 공식 인스타그램 — 수상작 게시 목업" style="width:100%;height:auto;display:block;border-radius:22px 3px 22px 3px;border:1px solid #DAD9D3">
+    </div>
+  </div><div style="margin-top:16px;background:#2A2E3A;border-radius:22px 3px 22px 3px;padding:clamp(28px,3.4vw,40px) clamp(26px,3.4vw,40px)">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(24px,3vw,48px);align-items:center">
+          <div>
+            <div style="font-family: 'Pretendard',sans-serif; font-weight: 600; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #448A5E">Brand Film · AI 제작</div>
+            <h4 style="margin:14px 0 0;font-family:'Pretendard',sans-serif;font-weight:600;font-size:clamp(19px,2.3vw,25px);line-height:1.35;letter-spacing:-0.02em;color:#F3F3F6">창작의 공간에서<br>돌연 숲이 전개됩니다</h4>
+            <p style="margin:16px 0 0;font-size:14px;line-height:1.8;color:rgba(255,255,255,.66);text-wrap:pretty">창작의 공간 속에서 돌연히 풀숲이 전개되며, 마치 숲의 향이 코끝에 닿을 듯한 감각을 선사합니다.</p>
+            <p style="margin:18px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.14);font-size:12.5px;line-height:1.65;color:rgba(255,255,255,.6)">당시 생성형 AI로 직접 제작한 브랜드 필름 시안 2편입니다.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(2,minmax(0,200px));gap:14px;justify-content:center">
+            <div style="aspect-ratio:9/16;border-radius:16px 2px 16px 2px;overflow:hidden;background:#000">
+              <video src="videos/scent-1.mp4" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform:scale(1.14);display:block;cursor:pointer" muted="{{ true }}" playsInline="{{ true }}" preload="metadata"></video>
+            </div>
+            <div style="aspect-ratio:9/16;border-radius:16px 2px 16px 2px;overflow:hidden;background:#000">
+              <video src="videos/scent-2.mp4" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform:scale(1.14);display:block;cursor:pointer" muted="{{ true }}" playsInline="{{ true }}" preload="metadata"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+      </sc-if>
+
+    </div>
+  </div>
+  <!-- 피드 시뮬레이터 · 풀블리드 목업 -->
+  
+  <!-- 공모전 → 공식 계정 · 창작자의 마당 -->
+  
+  <div style="max-width:1160px;margin:0 auto;padding:0 clamp(20px,4vw,40px) clamp(120px,17vh,190px)">
+    <!-- 에코마케팅 연결 -->
+    
+  </div>
+</section>
+
+<!-- ═══════ 8 · 툴 · 언어 + 클로징 ═══════ -->
+<section id="tools" data-screen-label="08 툴·클로징" style="scroll-margin-top:72px;border-top:1px solid #DAD9D3">
+  
+</section>
+
+<!-- ═══════ 클로징 배너 ═══════ -->
+<section data-screen-label="09 클로징" style="border-top:1px solid #DAD9D3;background:#F1F0EB">
+  <div style="max-width:1160px;margin:0 auto;padding:clamp(52px,7vh,76px) clamp(20px,4vw,40px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(28px,4vw,64px);align-items:start" data-reveal="">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px;font-family:'Pretendard',sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3538CD">
+          <span style="display:inline-block;width:20px;height:2px;background:#3538CD"></span>
+          <span>Core Message</span>
+        </div>
+        <p style="margin:20px 0 0;font-family:'Pretendard',sans-serif;font-weight:700;font-size:clamp(21px,2.5vw,28px);line-height:1.35;letter-spacing:-0.02em;color:#25262E;text-wrap:pretty">크리에이티브를 <span style="color:#3538CD">무작정</span> 펼치지 않습니다.<br>주어진 <span style="color:#3538CD">틀 안에서</span> 가장 효과적으로 펼칩니다.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0;font-variant-numeric:tabular-nums">
+        <div style="display:grid;grid-template-columns:96px 1fr;gap:16px;padding:14px 0;border-top:1px solid #D8D7D0;align-items:baseline">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">지원</span>
+          <span style="font-size:14.5px;color:#25262E">에코마케팅 · 퍼포먼스 마케터 인턴</span>
+        </div>
+        
+        <div style="display:grid;grid-template-columns:96px 1fr;gap:16px;padding:14px 0;border-top:1px solid #D8D7D0;align-items:baseline">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">강점</span>
+          <span style="font-size:14.5px;color:#25262E;line-height:1.6">크리에이티브 기획·제작 · 데이터 전략 · AI 파이프라인 설계</span>
+        </div>
+        <div style="display:grid;grid-template-columns:96px 1fr;gap:16px;padding:14px 0;border-top:1px solid #D8D7D0;border-bottom:1px solid #D8D7D0;align-items:baseline">
+          <span style="font-family:'Pretendard',sans-serif;font-weight:600;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#8A8B90">언어</span>
+          <span style="font-size:14.5px;color:#25262E">TOEIC 950 · HSKK 고급</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="border-top:1px solid #D8D7D0">
+    <div style="max-width:1160px;margin:0 auto;padding:20px clamp(20px,4vw,40px);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;color:#8A8B90;font-variant-numeric:tabular-nums">
+      <span>이태현 — Performance Marketer Portfolio</span>
+      <span>Echo Marketing Intern · 2026</span>
+    </div>
+  </div>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;scentFollowerPeak&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:6000,&quot;min&quot;:200,&quot;max&quot;:50000,&quot;step&quot;:100,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;동작&quot;},&quot;scentFollowerBadge&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;동작&quot;},&quot;showProjects&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;표기&quot;},&quot;showGuides&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;표기&quot;},&quot;stepsAfterMedia&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;표기&quot;},&quot;toolDock&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;표기&quot;},&quot;showScentVideos&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;표기&quot;},&quot;motion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;동작&quot;},&quot;animCountup&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;동작&quot;},&quot;animSway&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;동작&quot;},&quot;videoBong&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://www.youtube.com/watch?v=44_bdDDGfCs&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;영상 링크 (YouTube URL)&quot;},&quot;videoPipeline&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://www.youtube.com/watch?v=fGt0tGjqbeM&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;영상 링크 (YouTube URL)&quot;},&quot;videoShorts1&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://www.youtube.com/watch?v=6AnOwJ86TJ8&amp;list=PLd0XUWR7qNi6wSp8PJK5ZDokTsUibw3jD&amp;index=2&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;영상 링크 (YouTube URL)&quot;},&quot;videoShorts2&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://www.youtube.com/shorts/o7E9Ay9c8QE&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;영상 링크 (YouTube URL)&quot;}}">
+class Component extends DCLogic {
+  toEmbed(url) {
+    if (!url) return '';
+    const s = String(url).trim();
+    if (!s) return '';
+    const yt = s.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/|live\/))([\w-]{6,})/);
+    if (yt) return 'https://www.youtube.com/embed/' + yt[1];
+    const vm = s.match(/vimeo\.com\/(\d+)/);
+    if (vm) return 'https://player.vimeo.com/video/' + vm[1];
+    const ig = s.match(/instagram\.com\/(?:reels?|p|tv)\/([\w-]+)/);
+    if (ig) return 'https://www.instagram.com/p/' + ig[1] + '/embed';
+    return s;
+  }
+  componentDidMount() {
+    const motion = this.props.motion ?? true;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const anim = motion && !reduced;
+    this._initCarousel(!anim);
+    this._initCountup(anim);
+    this._initSway(anim);
+    this._applyFlowOrder();
+    this._initBong();
+    this._initToolDock();
+    this._initMoreProjects();
+    this._initSkillBars();
+    this._initAutoVideos();
+    this._initScentFlip();
+    this._initScentParallax();
+    this._initScentFollower();
+    if (!anim) return;
+    const els = Array.from(document.querySelectorAll('[data-reveal]'));
+    els.forEach((el) => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity .6s ease, transform .7s cubic-bezier(.22,.6,.3,1)';
+    });
+    this._io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        const el = e.target;
+        const delay = parseInt(el.getAttribute('data-reveal-delay') || '0', 10);
+        setTimeout(() => { el.style.opacity = '1'; el.style.transform = 'none'; }, delay);
+        this._io.unobserve(el);
+      });
+    }, { threshold: 0.12 });
+    els.forEach((el) => this._io.observe(el));
+  }
+  componentWillUnmount() {
+    if (this._io) this._io.disconnect();
+    if (this._cuIo) this._cuIo.disconnect();
+    if (this._autoTimer) clearInterval(this._autoTimer);
+    if (this._thumbTimer) clearInterval(this._thumbTimer);
+    if (this._swayRaf) cancelAnimationFrame(this._swayRaf);
+  }
+  componentDidUpdate() {
+    this._applyFlowOrder();
+    this._initBong();
+    this._initToolDock();
+    this._initMoreProjects();
+    this._initSkillBars();
+  }
+  _initScentParallax() {
+    const box = document.querySelector('[data-scent-parallax]');
+    const img = document.querySelector('[data-scent-parallax-img]');
+    if (!box || !img) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const onScroll = () => {
+      const r = box.getBoundingClientRect();
+      const vh = window.innerHeight;
+      if (r.bottom < 0 || r.top > vh) return;
+      const p = (r.top + r.height / 2 - vh / 2) / (vh / 2 + r.height / 2); // 1 → -1
+      img.style.transform = 'translateY(' + (p * -36) + '%)';
+    };
+    if (this._spxHandler) window.removeEventListener('scroll', this._spxHandler);
+    this._spxHandler = onScroll;
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+  _initScentFollower() {
+    const numEl = document.querySelector('[data-scent-follower]');
+    const labelEl = document.querySelector('[data-scent-follower-label]');
+    const badgeEl = document.querySelector('[data-scent-badge]');
+    if (!numEl) return;
+    const START = 161;
+    const PEAK = Math.max(START + 1, Math.round(this.props.scentFollowerPeak ?? 6000));
+    const wantBadge = (this.props.scentFollowerBadge ?? true);
+    const motion = (this.props.motion ?? true) && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const fmt = (n) => Math.round(n).toLocaleString('en-US');
+    const RED = [192, 57, 43], GREEN = [46, 125, 75];
+    const lerpC = (t) => 'rgb(' + RED.map((c, i) => Math.round(c + (GREEN[i] - c) * t)).join(',') + ')';
+    const setColor = (t) => { const c = lerpC(t); numEl.style.color = c; if (labelEl) labelEl.style.color = c; };
+    const showBadge = (on) => { if (!badgeEl) return; badgeEl.style.opacity = on ? '1' : '0'; badgeEl.style.transform = on ? 'scale(1)' : 'scale(.4)'; };
+
+    if (this._scentFollowerRaf) cancelAnimationFrame(this._scentFollowerRaf);
+    if (this._scentFollowerTimers) this._scentFollowerTimers.forEach(clearTimeout);
+    this._scentFollowerTimers = [];
+
+    if (!motion) { numEl.textContent = fmt(START); setColor(0); showBadge(false); return; }
+
+    const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+    const RISE = 2100, HOLD = 1700, FADE = 900, GAP = 700;
+    const runOnce = () => {
+      const t0 = performance.now();
+      showBadge(false);
+      const step = (now) => {
+        const p = Math.min(1, (now - t0) / RISE);
+        const e = easeOut(p);
+        numEl.textContent = fmt(START + (PEAK - START) * e);
+        setColor(e);
+        if (p >= 0.55 && wantBadge) showBadge(true);
+        if (p < 1) { this._scentFollowerRaf = requestAnimationFrame(step); }
+        else {
+          // hold at peak, then fade back to start and loop
+          this._scentFollowerTimers.push(setTimeout(() => {
+            const f0 = performance.now();
+            const fade = (fnow) => {
+              const fp = Math.min(1, (fnow - f0) / FADE);
+              const fe = easeOut(fp);
+              numEl.textContent = fmt(PEAK + (START - PEAK) * fe);
+              setColor(1 - fe);
+              if (fp >= 0.4) showBadge(false);
+              if (fp < 1) { this._scentFollowerRaf = requestAnimationFrame(fade); }
+              else { this._scentFollowerTimers.push(setTimeout(runOnce, GAP)); }
+            };
+            this._scentFollowerRaf = requestAnimationFrame(fade);
+          }, HOLD));
+        }
+      };
+      this._scentFollowerRaf = requestAnimationFrame(step);
+    };
+
+    // start only when the card scrolls into view (first time), then loop forever
+    if (this._scentFollowerObs) this._scentFollowerObs.disconnect();
+    let started = false;
+    this._scentFollowerObs = new IntersectionObserver((ents) => {
+      ents.forEach((en) => { if (en.isIntersecting && !started) { started = true; runOnce(); } });
+    }, { threshold: 0.4 });
+    this._scentFollowerObs.observe(numEl);
+  }
+  _initScentFlip() {
+    const box = document.querySelector('[data-scent-flip]');
+    if (!box) return;
+    const newS = box.querySelector('[data-sf-new]');
+    const oldL = box.querySelector('[data-sf-label-old]');
+    const newL = box.querySelector('[data-sf-label-new]');
+    if (!newS) return;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const spring = 'cubic-bezier(.34,1.4,.5,1)';
+    const show = () => {
+      if (reduced) {
+        newS.style.maxWidth = 'none'; newS.style.opacity = '1';
+        if (oldL) oldL.style.opacity = '0';
+        if (newL) newL.style.opacity = '1';
+        return;
+      }
+      newS.style.transition = 'max-width 1.1s ' + spring + ', opacity .7s ease .15s';
+      newS.style.maxWidth = '14em'; newS.style.opacity = '1';
+      if (oldL) { oldL.style.transition = 'opacity .45s ease'; oldL.style.opacity = '0'; }
+      if (newL) { newL.style.transition = 'opacity .6s ease .45s'; newL.style.opacity = '1'; }
+    };
+    const hide = () => {
+      newS.style.transition = 'max-width .9s ' + spring + ', opacity .5s ease';
+      newS.style.maxWidth = '0px'; newS.style.opacity = '0';
+      if (oldL) { oldL.style.transition = 'opacity .6s ease .3s'; oldL.style.opacity = '1'; }
+      if (newL) { newL.style.transition = 'opacity .45s ease'; newL.style.opacity = '0'; }
+    };
+    let shown = false;
+    const cycle = () => { shown = !shown; if (shown) show(); else hide(); };
+    const start = () => {
+      if (this._sfTimer) return;
+      setTimeout(() => { shown = true; show(); }, 800);
+      this._sfTimer = setInterval(cycle, 4500);
+    };
+    const stop = () => {
+      if (this._sfTimer) { clearInterval(this._sfTimer); this._sfTimer = null; }
+    };
+    if (this._sfIO) this._sfIO.disconnect();
+    stop();
+    if (reduced) { show(); return; }
+    this._sfIO = new IntersectionObserver((es) => {
+      es.forEach((e) => { if (e.isIntersecting) start(); else stop(); });
+    }, { threshold: 0.5 });
+    this._sfIO.observe(box);
+  }
+  _initAutoVideos() {
+    const vids = document.querySelectorAll('video[src*="scent"]');
+    vids.forEach((v) => {
+      v.muted = true; v.loop = false; v.playsInline = true; v.setAttribute('playsinline', '');
+      v.addEventListener('click', () => {
+        if (v.paused) { v.currentTime = 0; const p = v.play(); if (p && p.catch) p.catch(() => {}); }
+      });
+    });
+    if (this._scentIO) this._scentIO.disconnect();
+    this._scentIO = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        const v = e.target;
+        if (e.isIntersecting && !v.dataset.played) {
+          v.dataset.played = '1';
+          const p = v.play(); if (p && p.catch) p.catch(() => {});
+        }
+      });
+    }, { threshold: 0.5 });
+    vids.forEach((v) => this._scentIO.observe(v));
+  }
+  _initToolDock() {
+    const dock = document.querySelector('.tool-dock');
+    if (!dock) return;
+    const hide = () => { dock.style.opacity = '0'; dock.style.transform = 'translateX(-50%) translateY(26px)'; dock.style.pointerEvents = 'none'; };
+    if ((this.props.toolDock ?? true) === false) { this._dockActive = null; hide(); return; }
+    const map = [['case1', '#case1'], ['case2', '#case2'], ['experience', '#experience']];
+    const panels = Array.from(dock.querySelectorAll('.tool-dock-panel'));
+    const update = () => {
+      const anchor = window.innerHeight * 0.82;
+      let active = null;
+      for (const [key, sel] of map) {
+        const el = document.querySelector(sel);
+        if (!el) continue;
+        const r = el.getBoundingClientRect();
+        if (r.top <= anchor && r.bottom >= anchor) active = key;
+      }
+      if (active) {
+        if (this._dockActive !== active) {
+          const first = this._dockActive == null;
+          this._dockActive = active;
+          panels.forEach((p) => {
+            const on = p.getAttribute('data-dock') === active;
+            p.style.display = on ? 'flex' : 'none';
+            if (on && !first) {
+              p.style.transition = 'none';
+              p.style.opacity = '0';
+              p.style.transform = 'translateY(8px) scale(.97)';
+              requestAnimationFrame(() => requestAnimationFrame(() => {
+                p.style.transition = 'opacity .4s cubic-bezier(.34,1.35,.5,1),transform .4s cubic-bezier(.34,1.35,.5,1)';
+                p.style.opacity = '1';
+                p.style.transform = 'translateY(0) scale(1)';
+              }));
+            } else if (on) {
+              p.style.opacity = '1';
+              p.style.transform = 'none';
+            }
+          });
+        }
+        dock.style.opacity = '1';
+        dock.style.transform = 'translateX(-50%) translateY(0)';
+        dock.style.pointerEvents = 'auto';
+      } else {
+        hide();
+      }
+    };
+    this._dockUpdate = update;
+    const onScroll = () => {
+      if (this._dockThrottle) return;
+      this._dockThrottle = setTimeout(() => { this._dockThrottle = null; this._dockUpdate && this._dockUpdate(); }, 80);
+    };
+    if (this._dockScrollHandler) {
+      window.removeEventListener('scroll', this._dockScrollHandler);
+      document.removeEventListener('scroll', this._dockScrollHandler, true);
+      window.removeEventListener('resize', this._dockScrollHandler);
+    }
+    this._dockScrollHandler = onScroll;
+    window.addEventListener('scroll', onScroll, { passive: true });
+    document.addEventListener('scroll', onScroll, { passive: true, capture: true });
+    window.addEventListener('resize', onScroll);
+    if (this._dockIO) this._dockIO.disconnect();
+    this._dockIO = new IntersectionObserver(() => { this._dockUpdate && this._dockUpdate(); }, { threshold: [0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9] });
+    map.forEach(([k, sel]) => { const el = document.querySelector(sel); if (el) this._dockIO.observe(el); });
+    if (this._dockPoll) clearInterval(this._dockPoll);
+    this._dockPoll = setInterval(() => { this._dockUpdate && this._dockUpdate(); }, 350);
+    this._dockActive = null;
+    update();
+  }
+  _applyFlowOrder() {
+    const after = this.props.stepsAfterMedia ?? true;
+    const steps = document.querySelector('.c2-steps');
+    const callout = document.querySelector('.c2-callout');
+    const media = document.querySelector('.c2-media');
+    if (!steps || !callout || !media) return;
+    media.style.order = after ? '1' : '3';
+    steps.style.order = after ? '2' : '1';
+    callout.style.order = after ? '3' : '2';
+  }
+  _initCountup(anim) {
+    if (!anim) return;
+    const els = Array.from(document.querySelectorAll('[data-countup]'));
+    if (!els.length) return;
+    const run = (el) => {
+      const m = /^([^\d]*)([\d.,]+)(.*)$/s.exec(el.textContent.trim());
+      if (!m) return;
+      const num = parseFloat(m[2].replace(/,/g, ''));
+      if (!isFinite(num)) return;
+      const dec = (m[2].split('.')[1] || '').length;
+      const dur = 1300;
+      const t0 = performance.now();
+      const fmt = (v) => m[1] + v.toLocaleString('ko-KR', { minimumFractionDigits: dec, maximumFractionDigits: dec }) + m[3];
+      const step = (t) => {
+        const p = Math.min(1, (t - t0) / dur);
+        const e = 1 - Math.pow(1 - p, 3);
+        el.textContent = fmt(num * e);
+        if (p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+    this._cuIo = new IntersectionObserver((ents) => {
+      ents.forEach((en) => {
+        if (!en.isIntersecting) return;
+        this._cuIo.unobserve(en.target);
+        if (this.props.animCountup ?? true) run(en.target);
+      });
+    }, { threshold: 0.5 });
+    els.forEach((el) => this._cuIo.observe(el));
+  }
+  _initSway(anim) {
+    if (!anim) return;
+    const secs = Array.from(document.querySelectorAll('[data-screen-label]'));
+    if (!secs.length) return;
+    let last = window.scrollY, vel = 0, cur = 0, applied = false;
+    const loop = () => {
+      this._swayRaf = requestAnimationFrame(loop);
+      const y = window.scrollY;
+      vel = vel * 0.82 + (y - last) * 0.18;
+      last = y;
+      const on = this.props.animSway ?? true;
+      const target = on ? Math.max(-16, Math.min(16, vel * -0.35)) : 0;
+      cur += (target - cur) * 0.12;
+      if (Math.abs(cur) < 0.05 && Math.abs(target) < 0.05) {
+        if (applied) { secs.forEach((s) => { s.style.transform = ''; }); applied = false; }
+        return;
+      }
+      applied = true;
+      secs.forEach((s, i) => {
+        const w = 0.55 + (i % 3) * 0.28;
+        s.style.transform = 'translate3d(0,' + (cur * w).toFixed(2) + 'px,0)';
+      });
+    };
+    loop();
+  }
+  _initSkillBars() {
+    const bars = document.querySelectorAll('.skill-bar');
+    if (!bars.length) return;
+    const animate = (bar) => {
+      if (bar._done) return;
+      bar._done = true;
+      const pct = parseFloat(bar.getAttribute('data-pct') || '0') / 100;
+      Array.from(bar.querySelectorAll('.skill-fill')).forEach((f, i) => {
+        const frac = Math.max(0, Math.min(1, pct * 5 - i));
+        f.style.transition = 'width .45s cubic-bezier(.22,1,.36,1) ' + (i * 0.14) + 's';
+        requestAnimationFrame(() => { f.style.width = (frac * 100) + '%'; });
+      });
+    };
+    if (this._skillIO) this._skillIO.disconnect();
+    this._skillIO = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) animate(e.target); });
+    }, { threshold: 0.5 });
+    bars.forEach((b) => this._skillIO.observe(b));
+  }
+  _initMoreProjects() {
+    const root = document.querySelector('.more-projects-wrap');
+    if (!root || root._mpBound) return;
+    root._mpBound = true;
+    const spring = 'cubic-bezier(.34,1.4,.5,1)';
+    const toggleBtn = root.querySelector('.mp-toggle');
+    const mainPanel = root.querySelector('.mp-panel');
+    const mainArrow = root.querySelector('.mp-toggle-arrow');
+    const label = root.querySelector('.mp-toggle-label');
+    let mainOpen = false;
+    toggleBtn.addEventListener('click', () => {
+      mainOpen = !mainOpen;
+      mainPanel.style.gridTemplateRows = mainOpen ? '1fr' : '0fr';
+      mainArrow.style.transform = mainOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+      mainArrow.style.animation = mainOpen ? 'none' : '';
+      if (label) label.textContent = mainOpen ? '디자인 프로젝트 접기' : '디자인 프로젝트 더보기';
+    });
+    root.querySelectorAll('.mp-item').forEach((item) => {
+      const head = item.querySelector('.mp-head');
+      const body = item.querySelector('.mp-body');
+      const arrow = item.querySelector('.mp-arrow');
+      let open = false;
+      head.addEventListener('click', () => {
+        open = !open;
+        body.style.gridTemplateRows = open ? '1fr' : '0fr';
+        arrow.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
+        if (open) {
+          item.querySelectorAll('.mp-asset').forEach((img, k) => {
+            img.style.transition = 'none';
+            img.style.opacity = '0';
+            img.style.transform = 'translateY(14px)';
+            requestAnimationFrame(() => requestAnimationFrame(() => {
+              img.style.transition = 'opacity .5s ease ' + (0.12 + k * 0.07) + 's, transform .55s ' + spring + ' ' + (0.12 + k * 0.07) + 's';
+              img.style.opacity = '1';
+              img.style.transform = 'translateY(0)';
+            }));
+          });
+        }
+      });
+    });
+  }
+  _initBong() {
+    const root = document.querySelector('.bong-map');
+    if (!root) return;
+    const q = (sel) => Array.from(root.querySelectorAll(sel));
+    const reset = () => {
+      q('.bong-branch').forEach((b) => { b.style.background = 'transparent'; b.style.borderColor = 'rgba(255,255,255,.28)'; b.style.opacity = '1'; });
+      q('.bong-ending').forEach((e) => { e.style.background = 'rgba(255,255,255,.06)'; e.style.borderColor = 'rgba(255,255,255,.14)'; e.style.color = 'rgba(255,255,255,.5)'; });
+    };
+    const apply = (i) => {
+      const branches = q('.bong-branch');
+      const endings = q('.bong-ending');
+      const reach = (branches[i].getAttribute('data-reach') || '').split(',').map(Number);
+      branches.forEach((b, k) => { const on = k === i; b.style.background = on ? '#E8590C' : 'transparent'; b.style.borderColor = on ? '#E8590C' : 'rgba(255,255,255,.28)'; b.style.opacity = on ? '1' : '.4'; });
+      endings.forEach((e, k) => { const on = reach.includes(k); e.style.background = on ? 'rgba(232,89,12,.26)' : 'rgba(255,255,255,.03)'; e.style.borderColor = on ? '#E8590C' : 'rgba(255,255,255,.1)'; e.style.color = on ? '#fff' : 'rgba(255,255,255,.3)'; });
+    };
+    if (!root._bongBound) {
+      root._bongBound = true;
+      root.addEventListener('click', (ev) => {
+        const btn = ev.target.closest('.bong-branch');
+        if (!btn || !root.contains(btn)) return;
+        const i = q('.bong-branch').indexOf(btn);
+        if (this._bongActive === i) { this._bongActive = null; reset(); }
+        else { this._bongActive = i; apply(i); }
+      });
+    }
+    if (this._bongActive != null && q('.bong-branch')[this._bongActive]) apply(this._bongActive);
+    else reset();
+  }
+  _initCarousel(noAuto) {
+    const root = document.querySelector('.c2-carousel');
+    if (!root) return;
+    const slides = Array.from(root.querySelectorAll('.c2-slide'));
+    const thumbs = Array.from(root.querySelectorAll('.c2-thumb'));
+    const n = slides.length;
+    if (!n) return;
+    let cur = 0;
+    slides.forEach((s, k) => {
+      s.style.display = 'block';
+      s.style.transition = 'opacity .55s ease';
+      s.style.opacity = k === 0 ? '1' : '0';
+      s.style.pointerEvents = k === 0 ? 'auto' : 'none';
+      s.style.zIndex = k === 0 ? '2' : '1';
+    });
+    const show = (i) => {
+      cur = (i % n + n) % n;
+      slides.forEach((s, k) => {
+        const on = k === cur;
+        s.style.opacity = on ? '1' : '0';
+        s.style.pointerEvents = on ? 'auto' : 'none';
+        s.style.zIndex = on ? '2' : '1';
+      });
+      thumbs.forEach((t, k) => {
+        const on = k === cur;
+        t.style.outline = on ? '2px solid #3538CD' : '1px solid #DAD9D3';
+        t.style.outlineOffset = on ? '2px' : '0';
+        t.style.opacity = on ? '1' : '0.55';
+      });
+    };
+    const syncThumbs = () => {
+      slides.forEach((s, k) => {
+        const slot = s.querySelector('image-slot');
+        const img = slot ? (slot.shadowRoot && slot.shadowRoot.querySelector('.frame img')) : s.querySelector('img');
+        const src = img && img.getAttribute('src');
+        const timg = thumbs[k].querySelector('.c2-thumb-img');
+        const tnum = thumbs[k].querySelector('.c2-thumb-num');
+        if (src) {
+          if (timg.getAttribute('src') !== src) timg.src = src;
+          timg.style.display = 'block';
+          if (tnum) tnum.style.display = 'none';
+        } else {
+          timg.style.display = 'none';
+          if (tnum) tnum.style.display = 'flex';
+        }
+      });
+    };
+    const startAuto = () => {
+      if (noAuto || this._autoTimer) return;
+      this._autoTimer = setInterval(() => show(cur + 1), 3500);
+    };
+    const stopAuto = () => {
+      if (this._autoTimer) { clearInterval(this._autoTimer); this._autoTimer = null; }
+    };
+    const bump = () => { stopAuto(); startAuto(); };
+    const prev = root.querySelector('.c2-prev');
+    const next = root.querySelector('.c2-next');
+    if (prev) prev.addEventListener('click', (e) => { e.stopPropagation(); show(cur - 1); bump(); });
+    if (next) next.addEventListener('click', (e) => { e.stopPropagation(); show(cur + 1); bump(); });
+    thumbs.forEach((t, k) => t.addEventListener('click', (e) => { e.stopPropagation(); show(k); bump(); }));
+    root.addEventListener('pointerenter', stopAuto);
+    root.addEventListener('pointerleave', startAuto);
+    show(0);
+    syncThumbs();
+    startAuto();
+    this._thumbTimer = setInterval(syncThumbs, 1000);
+  }
+  renderVals() {
+    const p = this.props;
+    const pipe = this.toEmbed(p.videoPipeline ?? '');
+    const s1 = this.toEmbed(p.videoShorts1 ?? '');
+    const s2 = this.toEmbed(p.videoShorts2 ?? '');
+    const bong = this.toEmbed(p.videoBong ?? 'https://www.youtube.com/watch?v=44_bdDDGfCs');
+    return {
+      showGuides: p.showGuides ?? true,
+      showScentVideos: p.showScentVideos ?? true,
+      showProjects: p.showProjects ?? true,
+      bongEmbed: bong, hasBong: !!bong, noBong: !bong,
+      pipelineEmbed: pipe, hasPipeline: !!pipe, noPipeline: !pipe,
+      shorts1Embed: s1, hasShorts1: !!s1, noShorts1: !s1,
+      shorts2Embed: s2, hasShorts2: !!s2, noShorts2: !s2
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* ── Motion tokens ─────────────────────────────────────────
+   Kakao-style elastic life. Hover lifts with a spring overshoot,
+   press compresses. Reveals rise 20px with a soft ease + stagger.
+   ALWAYS honor prefers-reduced-motion (see styles/base or consumers).
+   ──────────────────────────────────────────────────────────── */
+:root {
+  /* — easing — */
+  --spring: cubic-bezier(.34, 1.4, .5, 1); /* @kind other */  /* elastic overshoot */
+  --ease:   cubic-bezier(.2, .7, .2, 1); /* @kind other */  /* smooth deceleration */
+
+  /* — durations — */
+  --dur-fast:   .18s; /* @kind other */
+  --dur-base:   .3s; /* @kind other */
+  --dur-lift:   .4s; /* @kind other */
+  --dur-reveal: .6s; /* @kind other */
+
+  /* — signature transforms — */
+  --lift:       -6px;         /* hover translateY */
+  --lift-sm:    -3px;         /* small element hover */
+  --press:      .95; /* @kind other */         /* press scale */
+
+  /* — reveal — */
+  --reveal-offset: 20px;
+  --reveal-stagger: 60ms; /* @kind other */
+}

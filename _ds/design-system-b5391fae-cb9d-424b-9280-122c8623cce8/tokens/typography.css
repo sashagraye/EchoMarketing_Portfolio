@@ -1,0 +1,47 @@
+/* ── Typography tokens ─────────────────────────────────────
+   display / heading : IBM Plex Sans KR 600–700, tight tracking
+   body              : Pretendard 400, line-height 1.7
+   label             : Plus Jakarta Sans 600, uppercase, .14em
+   Never fall back to bare Inter / system sans — the KR + Latin
+   pairing is the voice.
+   ──────────────────────────────────────────────────────────── */
+:root {
+  /* — families — */
+  --font-display: 'IBM Plex Sans KR', 'Pretendard', sans-serif;
+  --font-body:    'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-label:   'Plus Jakarta Sans', 'Pretendard', sans-serif;
+
+  /* — weights — */
+  --fw-regular:  400; /* @kind font */
+  --fw-medium:   500; /* @kind font */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold:     700; /* @kind font */
+
+  /* — display / heading scale (fluid) — */
+  --fs-display:  clamp(38px, 7vw, 80px); /* @kind font */
+  --fs-h1:       clamp(30px, 5vw, 56px); /* @kind font */
+  --fs-h2:       clamp(24px, 3.4vw, 36px); /* @kind font */
+  --fs-h3:       19px; /* @kind font */
+  --fs-lead:     clamp(15px, 1.6vw, 18px); /* @kind font */
+  --fs-body:     16px; /* @kind font */
+  --fs-sm:       14px; /* @kind font */
+  --fs-caption:  13px; /* @kind font */
+  --fs-label:    11px; /* @kind font */
+
+  /* — line-heights — */
+  --lh-display:  1.02; /* @kind font */
+  --lh-heading:  1.12; /* @kind font */
+  --lh-body:     1.7; /* @kind font */
+  --lh-tight:    1.3; /* @kind font */
+
+  /* — tracking — */
+  --tracking-display: -0.03em;  /* -3% on display @kind font */
+  --tracking-heading: -0.02em;  /* -2% on headings @kind font */
+  --tracking-label:   0.14em;   /* uppercase labels @kind font */
+  --tracking-body:    0; /* @kind font */
+
+  /* ── semantic aliases ── */
+  --text-display-family: var(--font-display);
+  --text-body-family:    var(--font-body);
+  --text-label-family:   var(--font-label);
+}

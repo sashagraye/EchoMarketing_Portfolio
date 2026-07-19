@@ -1,0 +1,24 @@
+/* ── Shape tokens (SIGNATURE) ──────────────────────────────
+   The anti-uniform corner. Every card/chip/button rounds TWO
+   diagonal corners and points the other two:
+     top-left + bottom-right  = ROUND
+     top-right + bottom-left  = SHARP
+   The diagonal direction NEVER changes across components.
+   Uniform radius is forbidden.
+   ──────────────────────────────────────────────────────────── */
+:root {
+  --round:     22px;   /* card round corners */
+  --sharp:     3px;    /* card sharp corners */
+  --round-sm:  12px;   /* chip / button round corners */
+  --sharp-sm:  2px;    /* chip / button sharp corners */
+  --round-xs:  8px;    /* small controls (inputs, tags) */
+  --sharp-xs:  2px;
+
+  /* composed radius shorthands — TL TR BR BL */
+  --radius-card: var(--round) var(--sharp) var(--round) var(--sharp);
+  --radius-chip: var(--round-sm) var(--sharp-sm) var(--round-sm) var(--sharp-sm);
+  --radius-ctrl: var(--round-xs) var(--sharp-xs) var(--round-xs) var(--sharp-xs);
+
+  /* — borders — */
+  --border-width: 1px;
+}

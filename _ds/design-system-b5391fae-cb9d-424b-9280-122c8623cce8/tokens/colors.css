@@ -1,0 +1,46 @@
+/* ── Color tokens ──────────────────────────────────────────
+   Restraint by design: one indigo accent axis + a warm-neutral
+   ink/paper scale. Energy comes from card SURFACES and motion,
+   never from a rainbow of hues. Accent-surface cards: 1 per screen.
+   ──────────────────────────────────────────────────────────── */
+:root {
+  /* — base / paper & surfaces — */
+  --paper:      #FDFDFC;   /* page background (warm off-white) */
+  --surface:    #FFFFFF;   /* card / raised surface */
+  --panel:      #E8E8E4;   /* inset / muted panel */
+
+  /* — ink / text & dark surfaces — */
+  --ink:        #16171B;   /* primary text · dark card surface */
+  --ink-2:      #24252C;   /* secondary dark surface */
+  --ink-soft:   #55565C;   /* body-secondary text */
+  --ink-faint:  #8A8B90;   /* captions · labels · disabled */
+
+  /* — accent · indigo (single hue) — */
+  --accent:        #3538CD; /* primary accent · accent-surface */
+  --accent-press:  #2A2CA8; /* pressed / active accent */
+  --accent-bright: #6C6EF5; /* accent-on-dark · highlights */
+  --accent-tint:   #E7E7FB; /* faint indigo wash · selected bg */
+
+  /* — line / borders — */
+  --line:        #DAD9D3;  /* hairline divider · card border */
+  --line-strong: #C6C5BD;  /* stronger border · ghost outline */
+
+  /* ── semantic aliases ── */
+  --bg-page:        var(--paper);
+  --bg-card:        var(--surface);
+  --bg-inset:       var(--panel);
+  --bg-inverse:     var(--ink);
+
+  --text-strong:    var(--ink);
+  --text-body:      var(--ink-soft);
+  --text-muted:     var(--ink-faint);
+  --text-on-dark:   #FFFFFF;
+  --text-on-accent: #FFFFFF;
+
+  --border-hairline: var(--line);
+  --border-strong:   var(--line-strong);
+
+  --focus-ring:     var(--accent);
+  --selection-bg:   var(--accent);
+  --selection-fg:   #FFFFFF;
+}
